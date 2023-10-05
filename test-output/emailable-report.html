@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Default Suite</th></tr>
+<tr><td><a href="#t0">SC_Test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">112 154</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">SC_Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">RUN_ALL.LADP_POM_TMONS</td><td><a href="#m0">LADP_FireTmons</a></td><td rowspan="1">1696500722507</td><td rowspan="1">25358</td></tr><tr class="failedodd"><td rowspan="1">RUN_ALL.RAIM_POM_TMONS</td><td><a href="#m1">Raim_Fire_TMON</a></td><td rowspan="1">1696500792657</td><td rowspan="1">15433</td></tr><tr><th colspan="4">SC_Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">RUN_ALL.LADP_POM_TMONS</td><td><a href="#m2">LADP_EdgeTmons</a></td><td rowspan="1">1696500748172</td><td rowspan="1">24696</td></tr><tr class="passedeven"><td><a href="#m3">LADP_chromeTmons</a></td><td rowspan="1">1696500772873</td><td rowspan="1">19777</td></tr><tr class="passedodd"><td rowspan="2">RUN_ALL.RAIM_POM_TMONS</td><td><a href="#m4">Raim_Crome_TMON</a></td><td rowspan="1">1696500808104</td><td rowspan="1">12758</td></tr><tr class="passedodd"><td><a href="#m5">Raim_Edge_TMON</a></td><td rowspan="1">1696500820868</td><td rowspan="1">13653</td></tr></tbody>
+</table>
+<h2>SC_Test</h2><h3 id="m0">RUN_ALL.LADP_POM_TMONS#LADP_FireTmons</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Firefox ir palaists<br/>1. Chrome LADP lapa ir atvērta<br/>2. Atrod meklēšanas lauku<br/>3. Ievada vakances<br/>4. Spiež meklēt<br/>5. Pauze 5 sec<br/>6. Spiež pirmo rezultātu/vakances<br/>7. Spiež uz pirmo resursu<br/>8. Aiziet uz datumu kad pēdējo reizi mainīts<br/>9. Spiež breadcrumb home<br/>10. Pauze 5 sek<br/>11. Meklē Izsludinātie iepirkumi (e-konkursi)<br/>12. Spiež meklēt<br/>13. Pauze 5 sek<br/>14. Spiež uz pirmā rezultāta<br/>15. Pauze 5 sek</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: WebDriver session does not exist, or is not active
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows Server 2019&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9f6fb0b3-1842-436a-97f8-506f10bbeb9e, findElement {using=xpath, value=(//*[contains(@title,&apos;2023&apos;)])}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.1, moz:accessibilityChecks: false, moz:buildID: 20230927232528, moz:debuggerAddress: 127.0.0.1:19811, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 34120, moz:profile: C:\Users\PETERI~1.TRO\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:19811/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9f6fb0b3-1842-436a-97f8-506f10bbeb9e
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at pages.LADP_homeLapa.izvēlās2023Gadu(LADP_homeLapa.java:127)
+	at RUN_ALL.LADP_POM_TMONS.LADP_FireTmons(LADP_POM_TMONS.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">RUN_ALL.RAIM_POM_TMONS#Raim_Fire_TMON</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Firefox ir palaists</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows Server 2019&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0d1bdc5c-f25d-4ed4-aeaa-2fa1ff43709a, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.1, moz:accessibilityChecks: false, moz:buildID: 20230927232528, moz:debuggerAddress: 127.0.0.1:36813, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 30132, moz:profile: C:\Users\PETERI~1.TRO\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:36813/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0d1bdc5c-f25d-4ed4-aeaa-2fa1ff43709a
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:978)
+	at pages.RAIM_homeLapa.raim_lapuAtver(RAIM_homeLapa.java:17)
+	at RUN_ALL.RAIM_POM_TMONS.Raim_Fire_TMON(RAIM_POM_TMONS.java:30)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">RUN_ALL.LADP_POM_TMONS#LADP_EdgeTmons</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Edge ir palaists<br/>1. Chrome LADP lapa ir atvērta<br/>2. Atrod meklēšanas lauku<br/>3. Ievada vakances<br/>4. Spiež meklēt<br/>5. Pauze 5 sec<br/>6. Spiež pirmo rezultātu/vakances<br/>7. Spiež uz pirmo resursu<br/>8. Aiziet uz datumu kad pēdējo reizi mainīts<br/>9. Spiež breadcrumb home<br/>10. Pauze 5 sek<br/>11. Meklē Izsludinātie iepirkumi (e-konkursi)<br/>12. Spiež meklēt<br/>13. Pauze 5 sek<br/>14. Spiež uz pirmā rezultāta<br/>15. Pauze 5 sek<br/>16. Spiež uz 2023 datiem<br/>17. Aiziet uz datumu kad pēdējo reizi mainīts<br/>18. Spiež Datu API<br/>19. Pauze 2 sek<br/> Lapa ir aizvērta</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">RUN_ALL.LADP_POM_TMONS#LADP_chromeTmons</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Chrome ir palaists<br/>1. Chrome LADP lapa ir atvērta<br/>2. Atrod meklēšanas lauku<br/>3. Ievada vakances<br/>4. Spiež meklēt<br/>5. Pauze 5 sec<br/>6. Spiež pirmo rezultātu/vakances<br/>7. Spiež uz pirmo resursu<br/>8. Aiziet uz datumu kad pēdējo reizi mainīts<br/>9. Spiež breadcrumb home<br/>10. Pauze 5 sek<br/>11. Meklē Izsludinātie iepirkumi (e-konkursi)<br/>12. Spiež meklēt<br/>13. Pauze 5 sek<br/>14. Spiež uz pirmā rezultāta<br/>15. Pauze 5 sek<br/>16. Spiež uz 2023 datiem<br/>17. Aiziet uz datumu kad pēdējo reizi mainīts<br/>18. Spiež Datu API<br/>19. Pauze 2 sek<br/> Lapa ir aizvērta</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">RUN_ALL.RAIM_POM_TMONS#Raim_Crome_TMON</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Chrome ir palaists<br/>1. Chrome RAIM lapa ir atvērta<br/>2. Sīkdatnes apstiprinātas <br/>3. Izvēlas Iedzīvotāju skaits (PMLP)<br/>4. Atver /list<br/>5. Spiež lejuplādēt <br/>6. Pauze 5 sec<br/>7. Spiež atlasīt<br/>8. Atver /thematic-analysis<br/>9. Spiež Par ES fondu...<br/>10. Pauze 3 sec<br/> Lapa ir aizvērta</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">RUN_ALL.RAIM_POM_TMONS#Raim_Edge_TMON</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Edge ir palaists<br/>1. Chrome RAIM lapa ir atvērta<br/>2. Sīkdatnes apstiprinātas <br/>3. Izvēlas Iedzīvotāju skaits (PMLP)<br/>4. Atver /list<br/>5. Spiež lejuplādēt <br/>6. Pauze 5 sec<br/>7. Spiež atlasīt<br/>8. Atver /thematic-analysis<br/>9. Spiež Par ES fondu...<br/>10. Pauze 3 sec<br/> Lapa ir aizvērta</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
