@@ -145,6 +145,30 @@ private final By dropdownPrieksatijums = By.xpath("(//*[contains(@href,'a0f9-4c3
         System.out.println("Pauze 5 sek");
         Reporter.log("19. Pauze 2 sek");
     }
+    public void melnsKonstrasts(){
+        WebElement pirmsMainaKontrastu = driver.findElement(By.xpath("//*[@class='path-frontpage has-glyphicons portal']"));
+        Boolean vaipirmsMainaKonstrastu = pirmsMainaKontrastu.isDisplayed();
+
+
+        if (vaipirmsMainaKonstrastu) {
+            System.out.println("Pirms maina kotrastu ir balts--- " + vaipirmsMainaKonstrastu);
+        } else {
+            System.out.println("Kontrasts nomainījies"+ vaipirmsMainaKonstrastu);
+        }
+
+//        //driver.findElement(By.xpath("//*[@class='contrast']")).click();
+//        Boolean pēcMainaKonstrastu2 = driver.findElement(By.xpath("//*[contains(@class,'portal hcontrast')]")).isDisplayed();
+//        //System.out.println("Pēc maina kotrastu ir melns--- " + pēcMainaKonstrastu2);
+//        if (pēcMainaKonstrastu2) {
+//            System.out.println("Pēc maina kotrastu ir melns--- " + pēcMainaKonstrastu2);
+//        } else {
+//            System.out.println("Kontrasts nomainījies" +pēcMainaKonstrastu2);
+//        }
+
+
+//        Boolean pēcMainaKonstrastu2 = driver.findElement(By.xpath("//*[contains(@class,'portal hcontrast')]")).isDisplayed();
+//        System.out.println("Pēc maina kotrastu ir melns--- " + pēcMainaKonstrastu2);
+    }
 }
 
 
