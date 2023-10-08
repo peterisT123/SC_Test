@@ -1,12 +1,13 @@
 package pages;
 
 import Helper.DriverCommon;
+import RUN_ALL.cookiesTVP;
 import org.testng.annotations.Test;
 
 public class TVP_POM_sikdatnes extends DriverCommon {
     DriverCommon driverCommon = new DriverCommon();
     TVP_lapa_sikdatnes tvp_lapa_sikdatnes = new TVP_lapa_sikdatnes();
-    pages.cookiesTVP cookiesTVP = new cookiesTVP();
+    RUN_ALL.cookiesTVP cookiesTVP = new cookiesTVP();
 
 
     @Test(priority = 1)

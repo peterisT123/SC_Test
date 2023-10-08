@@ -12,6 +12,7 @@ import java.util.concurrent.TimeUnit;
 
 public class TVP_lapa extends DriverCommon {
 
+
     private final By advanced = By.xpath("//*[@id=\"details-button\"]");
     private final By izmantotLV = By.xpath("//*[@id=\"edit-latvia-auth-login-links\"]/a");
 

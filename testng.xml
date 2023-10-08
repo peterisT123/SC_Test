@@ -1,2 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/peteris.troksa/IdeaProjects/SC_Test/src/test/java/RUN_ALL"><classes><class name="RUN_ALL.LADP_POM_TMONS"><methods><include name="LADP_chromeTmons"/><include name="LADP_FireTmons"/><include name="LADP_EdgeTmons"/></methods></class><class name="RUN_ALL.RAIM_POM_TMONS"><methods><include name="Raim_Crome_TMON"/><include name="Raim_Fire_TMON"/><include name="Raim_Edge_TMON"/></methods></class></classes></test></suite>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/PC/IdeaProjects/SC_Test/src/test/java/RUN_ALL">
+        <classes>
+            <class name="RUN_ALL.LADP_POM_TMONS">
+                <methods>
+                    <include name="LADP_chromeTmons"/>
+                    <include name="LADP_FireTmons"/>
+                    <include name="LADP_EdgeTmons"/>
+                </methods>
+            </class>
+            <class name="RUN_ALL.RAIM_POM_TMONS">
+                <methods>
+                    <include name="Raim_Crome_TMON"/>
+                    <include name="Raim_Fire_TMON"/>
+                    <include name="Raim_Edge_TMON"/>
+                </methods>
+            </class>
+            <class name="RUN_ALL.TVP_PamatlietasPOM">
+                <methods>
+                    <include name="TVP_pamatlietasFire"/>
+                    <include name="TVP_pamatlietasChrome"/>
+                    <include name="TVP_pamatlietasEdge"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

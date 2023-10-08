@@ -1,4 +1,4 @@
-package RUN_ALL;
+package pages;
 
 import Helper.DriverCommon;
 import org.openqa.selenium.By;
