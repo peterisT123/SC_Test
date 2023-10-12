@@ -3,6 +3,7 @@ package pages;
 import Helper.DriverCommon;
 import RUN_ALL.TVP_PamatlietasPOM;
 import com.beust.ah.A;
+import com.beust.jcommander.internal.Console;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -76,14 +77,50 @@ public class TVP_PamatlietasTest extends DriverCommon {
         driver.findElement(By.xpath("(//*[contains(@href,'/en')])[2]")).click();
         Reporter.log("11. Izvēlēta EN valoda");
         System.out.println("Izvēlēta EN valoda");
+        driver.findElement(By.xpath("(//img[contains(@src,'/vraa_mazs_logo_1')])[1]")).click(); //iet uz sākuma skatu
     }
+    public void mainītValoduUzLV() {
+        driver.findElement(By.xpath("//*[@class='fal icon-globe']")).click();
+        driver.findElement(By.xpath("(//*[contains(@href,'/lv')])[2]")).click();
+        Reporter.log("12. Izvēlēta LV valoda");
+        System.out.println("Izvēlēta LV valoda");
+        driver.findElement(By.xpath("(//img[contains(@src,'/vraa_mazs_logo_1')])[1]")).click(); //iet uz sākuma skatu
+    }
+    public void melnsKonstrasts() {
 
 
+        boolean isElementVisible = driver.findElement(By.xpath("(//*[contains(@class,'search-link')])[2]")).isEnabled();
 
-
+        if(isElementVisible){
+            System.out.println("Ir kontrasta ikona ");
+            driver.findElement(By.xpath("//*[@class='fas icon-contrast']")).click();
+            driver.findElement(By.xpath("//button[@id='contrast-1']")).click();
+        }
+        else if(isElementVisible){
+            System.out.println("Kaut kas mainīts");
+            driver.close();
+        }
+//
+//        boolean isElementVisible = driver.findElement(By.xpath("//*[@class='fas icon-contrast']")).isDisplayed();
+//        System.out.println("Ir kontrasta ikona  " + isElementVisible);
+//        Reporter.log("13. Ir kontrasta ikona");
+//        driver.findElement(By.xpath("//*[@class='fas icon-contrast']")).click();
+//        driver.findElement(By.xpath("//button[@id='contrast-1']")).click();
+//        System.out.println("Izvēlēts belnbalsts fons  " +isElementVisible);
+//        Reporter.log("13. Izvēlēts belnbalsts fons");
+//        driver.findElement(By.xpath("//*[@class='fas icon-contrast']")).click();
+//        driver.findElement(By.xpath("//button[@id='contrast-2']")).click();
+//        System.out.println("Izvēlēts noklusējuma fons  "+isElementVisible);
+//        Reporter.log("14. Izvēlēts noklusējuma fons");
 
 
 
 
 
 }
+}
+
+
+
+
+

@@ -2,11 +2,13 @@ package RUN_ALL;
 
 import Helper.DriverCommon;
 import org.testng.annotations.Test;
+import pages.LADP_homeLapa;
 import pages.TVP_PamatlietasTest;
 
 public class TVP_PamatlietasPOM extends DriverCommon {
     DriverCommon driverCommon = new DriverCommon();
     TVP_PamatlietasTest tvp_pamatlietasTest = new TVP_PamatlietasTest();
+    LADP_homeLapa ladpHomeLapa = new LADP_homeLapa();
 
         @Test
     public void TVP_pamatlietasFire(){
@@ -18,6 +20,9 @@ public class TVP_PamatlietasPOM extends DriverCommon {
             tvp_pamatlietasTest.parMums();
             tvp_pamatlietasTest.lasītVairākParMums();
             tvp_pamatlietasTest.mainītValoduUzEN();
+            tvp_pamatlietasTest.mainītValoduUzLV();
+            tvp_pamatlietasTest.melnsKonstrasts();
+
             driverCommon.aizvertDriverFirefox();
         }
     @Test
@@ -30,6 +35,8 @@ public class TVP_PamatlietasPOM extends DriverCommon {
         tvp_pamatlietasTest.parMums();
         tvp_pamatlietasTest.lasītVairākParMums();
         tvp_pamatlietasTest.mainītValoduUzEN();
+        tvp_pamatlietasTest.mainītValoduUzLV();
+        tvp_pamatlietasTest.melnsKonstrasts();
         driverCommon.aizvertDriverChrome();
     }
     @Test
@@ -42,6 +49,8 @@ public class TVP_PamatlietasPOM extends DriverCommon {
         tvp_pamatlietasTest.parMums();
         tvp_pamatlietasTest.lasītVairākParMums();
         tvp_pamatlietasTest.mainītValoduUzEN();
+        tvp_pamatlietasTest.mainītValoduUzLV();
+        tvp_pamatlietasTest.melnsKonstrasts();
         driverCommon.aizvertDriverEdge();
     }
 
