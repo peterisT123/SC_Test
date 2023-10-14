@@ -3,7 +3,6 @@ package pages;
 import Helper.DriverCommon;
 import RUN_ALL.TVP_PamatlietasPOM;
 import com.beust.ah.A;
-import com.beust.jcommander.internal.Console;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -77,50 +76,54 @@ public class TVP_PamatlietasTest extends DriverCommon {
         driver.findElement(By.xpath("(//*[contains(@href,'/en')])[2]")).click();
         Reporter.log("11. Izvēlēta EN valoda");
         System.out.println("Izvēlēta EN valoda");
-        driver.findElement(By.xpath("(//img[contains(@src,'/vraa_mazs_logo_1')])[1]")).click(); //iet uz sākuma skatu
     }
-    public void mainītValoduUzLV() {
+    public void mainītValoduUzLV(){
         driver.findElement(By.xpath("//*[@class='fal icon-globe']")).click();
-        driver.findElement(By.xpath("(//*[contains(@href,'/lv')])[2]")).click();
+        driver.findElement(By.xpath("(//*[contains(text(),'Latviešu')])[1]")).click();
         Reporter.log("12. Izvēlēta LV valoda");
         System.out.println("Izvēlēta LV valoda");
-        driver.findElement(By.xpath("(//img[contains(@src,'/vraa_mazs_logo_1')])[1]")).click(); //iet uz sākuma skatu
     }
     public void melnsKonstrasts() {
+        driver.findElement(By.xpath("//*[@class='fas icon-contrast']")).click();
+        WebElement pirmsMainaKontrastu = driver.findElement(By.xpath("(//*[@class='fal icon-eye'])[2]"));
+        Boolean vaipirmsMainaKonstrastu = pirmsMainaKontrastu.isDisplayed();
 
 
-        boolean isElementVisible = driver.findElement(By.xpath("(//*[contains(@class,'search-link')])[2]")).isEnabled();
-
-        if(isElementVisible){
-            System.out.println("Ir kontrasta ikona ");
+        if (vaipirmsMainaKonstrastu) {
+            System.out.println("Pirms maina kotrastu ir balts--- " + vaipirmsMainaKonstrastu);
+            driver.findElement(By.xpath("(//*[@class='fal icon-eye'])[2]")).click();
             driver.findElement(By.xpath("//*[@class='fas icon-contrast']")).click();
-            driver.findElement(By.xpath("//button[@id='contrast-1']")).click();
+        } else {
+            System.out.println("Kontrasts nomainījies  " + vaipirmsMainaKonstrastu);
         }
-        else if(isElementVisible){
-            System.out.println("Kaut kas mainīts");
-            driver.close();
+        Reporter.log("13. Kontrasts melns");
+        System.out.println("13. Kontrasts melns");
+
+
+        WebElement pirmsMainaKontrastu2 = driver.findElement(By.xpath("(//*[@class='fal icon-eye'])[1]"));
+        Boolean vaipirmsMainaKonstrastu2 = pirmsMainaKontrastu2.isDisplayed();
+
+        driver.findElement(By.xpath("//*[@class='fas icon-contrast']")).click();
+        if (vaipirmsMainaKonstrastu2) {
+            System.out.println("Pirms maina kotrastu ir melns--- " + vaipirmsMainaKonstrastu2);
+            driver.findElement(By.xpath("(//*[@class='fal icon-eye'])[1]")).click();
+        } else {
+            System.out.println("Kontrasts nomainījies " + vaipirmsMainaKonstrastu2);
         }
-//
-//        boolean isElementVisible = driver.findElement(By.xpath("//*[@class='fas icon-contrast']")).isDisplayed();
-//        System.out.println("Ir kontrasta ikona  " + isElementVisible);
-//        Reporter.log("13. Ir kontrasta ikona");
-//        driver.findElement(By.xpath("//*[@class='fas icon-contrast']")).click();
-//        driver.findElement(By.xpath("//button[@id='contrast-1']")).click();
-//        System.out.println("Izvēlēts belnbalsts fons  " +isElementVisible);
-//        Reporter.log("13. Izvēlēts belnbalsts fons");
-//        driver.findElement(By.xpath("//*[@class='fas icon-contrast']")).click();
-//        driver.findElement(By.xpath("//button[@id='contrast-2']")).click();
-//        System.out.println("Izvēlēts noklusējuma fons  "+isElementVisible);
-//        Reporter.log("14. Izvēlēts noklusējuma fons");
+        Reporter.log("14. Kontrasts balts");
+        System.out.println("14. Kontrasts balts");
+
+
+
+
+    }
+
+
+
+
 
 
 
 
 
 }
-}
-
-
-
-
-
