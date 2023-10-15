@@ -1,337 +1,367 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Chrome ir palaists]]>
+      <![CDATA[Firefox ir palaists]]>
     </line>
     <line>
-      <![CDATA[1. VRAA lapa ir atvērta]]>
+      <![CDATA[1. Chrome LADP lapa ir atvērta]]>
     </line>
     <line>
-      <![CDATA[2. VRAA lapa ir apstiprinātas sīkdatnes]]>
+      <![CDATA[2. Atrod meklēšanas lauku]]>
     </line>
     <line>
-      <![CDATA[3. Izvēlētas aktualitātes]]>
+      <![CDATA[3. Ievada vakances]]>
     </line>
     <line>
-      <![CDATA[4. Lasīt vairāk]]>
+      <![CDATA[4. Spiež meklēt]]>
     </line>
     <line>
-      <![CDATA[5. Iegūts aktualitātes datums: 27.09.2023.]]>
+      <![CDATA[5. Pauze 5 sec]]>
     </line>
     <line>
-      <![CDATA[6. Izvēlēta kontaktu sadaļa]]>
-    </line>
-    <line>
-      <![CDATA[7. Lasīt vairāk]]>
-    </line>
-    <line>
-      <![CDATA[8. Iestādes vadītājs ir: Aigars Undzēns
-Direktors]]>
-    </line>
-    <line>
-      <![CDATA[9. Izvēlēta Par mums sadaļa]]>
-    </line>
-    <line>
-      <![CDATA[10. Lasīt vairāk]]>
-    </line>
-    <line>
-      <![CDATA[10. Pēdējais labojums par mums: Publicēts: 16.01.2020.]]>
-    </line>
-    <line>
-      <![CDATA[11. Izvēlēta EN valoda]]>
-    </line>
-    <line>
-      <![CDATA[12. Izvēlēta LV valoda]]>
-    </line>
-    <line>
-      <![CDATA[13. Kontrasts melns]]>
-    </line>
-    <line>
-      <![CDATA[14. Kontrasts balts]]>
-    </line>
-    <line>
-      <![CDATA[ Lapa ir aizvērta]]>
+      <![CDATA[6. Spiež pirmo rezultātu/vakances]]>
     </line>
     <line>
       <![CDATA[Edge ir palaists]]>
     </line>
     <line>
-      <![CDATA[1. VRAA lapa ir atvērta]]>
+      <![CDATA[1. Chrome LADP lapa ir atvērta]]>
     </line>
     <line>
-      <![CDATA[2. VRAA lapa ir apstiprinātas sīkdatnes]]>
+      <![CDATA[2. Atrod meklēšanas lauku]]>
     </line>
     <line>
-      <![CDATA[3. Izvēlētas aktualitātes]]>
+      <![CDATA[3. Ievada vakances]]>
     </line>
     <line>
-      <![CDATA[4. Lasīt vairāk]]>
+      <![CDATA[4. Spiež meklēt]]>
     </line>
     <line>
-      <![CDATA[5. Iegūts aktualitātes datums: 27.09.2023.]]>
+      <![CDATA[5. Pauze 5 sec]]>
     </line>
     <line>
-      <![CDATA[6. Izvēlēta kontaktu sadaļa]]>
+      <![CDATA[6. Spiež pirmo rezultātu/vakances]]>
     </line>
     <line>
-      <![CDATA[7. Lasīt vairāk]]>
+      <![CDATA[7. Spiež uz pirmo resursu]]>
     </line>
     <line>
-      <![CDATA[8. Iestādes vadītājs ir: Aigars Undzēns
-Direktors]]>
+      <![CDATA[8. Aiziet uz datumu kad pēdējo reizi mainīts]]>
     </line>
     <line>
-      <![CDATA[9. Izvēlēta Par mums sadaļa]]>
+      <![CDATA[9. Spiež breadcrumb home]]>
     </line>
     <line>
-      <![CDATA[10. Lasīt vairāk]]>
+      <![CDATA[10. Pauze 5 sek]]>
     </line>
     <line>
-      <![CDATA[10. Pēdējais labojums par mums: Publicēts: 16.01.2020.]]>
+      <![CDATA[11. Meklē Izsludinātie iepirkumi (e-konkursi)]]>
     </line>
     <line>
-      <![CDATA[11. Izvēlēta EN valoda]]>
+      <![CDATA[12. Spiež meklēt]]>
     </line>
     <line>
-      <![CDATA[12. Izvēlēta LV valoda]]>
+      <![CDATA[13. Pauze 5 sek]]>
     </line>
     <line>
-      <![CDATA[13. Kontrasts melns]]>
+      <![CDATA[14. Spiež uz pirmā rezultāta]]>
     </line>
     <line>
-      <![CDATA[14. Kontrasts balts]]>
+      <![CDATA[15. Pauze 5 sek]]>
+    </line>
+    <line>
+      <![CDATA[16. Spiež uz 2023 datiem]]>
+    </line>
+    <line>
+      <![CDATA[17. Aiziet uz datumu kad pēdējo reizi mainīts]]>
+    </line>
+    <line>
+      <![CDATA[18. Spiež Datu API]]>
+    </line>
+    <line>
+      <![CDATA[19. Pauze 2 sek]]>
     </line>
     <line>
       <![CDATA[ Lapa ir aizvērta]]>
     </line>
     <line>
-      <![CDATA[Firefox ir palaists]]>
+      <![CDATA[Chrome ir palaists]]>
     </line>
     <line>
-      <![CDATA[1. VRAA lapa ir atvērta]]>
+      <![CDATA[1. Chrome LADP lapa ir atvērta]]>
     </line>
     <line>
-      <![CDATA[2. VRAA lapa ir apstiprinātas sīkdatnes]]>
+      <![CDATA[2. Atrod meklēšanas lauku]]>
     </line>
     <line>
-      <![CDATA[3. Izvēlētas aktualitātes]]>
+      <![CDATA[3. Ievada vakances]]>
     </line>
     <line>
-      <![CDATA[4. Lasīt vairāk]]>
+      <![CDATA[4. Spiež meklēt]]>
     </line>
     <line>
-      <![CDATA[5. Iegūts aktualitātes datums: 27.09.2023.]]>
+      <![CDATA[5. Pauze 5 sec]]>
     </line>
     <line>
-      <![CDATA[6. Izvēlēta kontaktu sadaļa]]>
+      <![CDATA[6. Spiež pirmo rezultātu/vakances]]>
     </line>
     <line>
-      <![CDATA[7. Lasīt vairāk]]>
+      <![CDATA[7. Spiež uz pirmo resursu]]>
     </line>
     <line>
-      <![CDATA[8. Iestādes vadītājs ir: Aigars Undzēns
-Direktors]]>
+      <![CDATA[8. Aiziet uz datumu kad pēdējo reizi mainīts]]>
     </line>
     <line>
-      <![CDATA[9. Izvēlēta Par mums sadaļa]]>
+      <![CDATA[9. Spiež breadcrumb home]]>
     </line>
     <line>
-      <![CDATA[10. Lasīt vairāk]]>
+      <![CDATA[10. Pauze 5 sek]]>
     </line>
     <line>
-      <![CDATA[10. Pēdējais labojums par mums: Publicēts: 16.01.2020.]]>
+      <![CDATA[11. Meklē Izsludinātie iepirkumi (e-konkursi)]]>
     </line>
     <line>
-      <![CDATA[11. Izvēlēta EN valoda]]>
+      <![CDATA[12. Spiež meklēt]]>
     </line>
     <line>
-      <![CDATA[12. Izvēlēta LV valoda]]>
+      <![CDATA[13. Pauze 5 sek]]>
     </line>
     <line>
-      <![CDATA[13. Kontrasts melns]]>
+      <![CDATA[14. Spiež uz pirmā rezultāta]]>
     </line>
     <line>
-      <![CDATA[14. Kontrasts balts]]>
+      <![CDATA[15. Pauze 5 sek]]>
+    </line>
+    <line>
+      <![CDATA[16. Spiež uz 2023 datiem]]>
+    </line>
+    <line>
+      <![CDATA[17. Aiziet uz datumu kad pēdējo reizi mainīts]]>
+    </line>
+    <line>
+      <![CDATA[18. Spiež Datu API]]>
+    </line>
+    <line>
+      <![CDATA[19. Pauze 2 sek]]>
     </line>
     <line>
       <![CDATA[ Lapa ir aizvērta]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-10-14T10:21:43 EEST" name="Default Suite" finished-at="2023-10-14T10:24:12 EEST" duration-ms="149153">
+  <suite started-at="2023-10-10T15:54:59 EEST" name="Default Suite" finished-at="2023-10-10T15:56:33 EEST" duration-ms="93214">
     <groups>
     </groups>
-    <test started-at="2023-10-14T10:21:43 EEST" name="SC_Test" finished-at="2023-10-14T10:24:12 EEST" duration-ms="149153">
-      <class name="RUN_ALL.TVP_PamatlietasPOM">
-        <test-method signature="TVP_pamatlietasChrome()[pri:0, instance:RUN_ALL.TVP_PamatlietasPOM@101952da]" started-at="2023-10-14T10:21:43 EEST" name="TVP_pamatlietasChrome" finished-at="2023-10-14T10:22:21 EEST" duration-ms="37963" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Chrome ir palaists]]>
-            </line>
-            <line>
-              <![CDATA[1. VRAA lapa ir atvērta]]>
-            </line>
-            <line>
-              <![CDATA[2. VRAA lapa ir apstiprinātas sīkdatnes]]>
-            </line>
-            <line>
-              <![CDATA[3. Izvēlētas aktualitātes]]>
-            </line>
-            <line>
-              <![CDATA[4. Lasīt vairāk]]>
-            </line>
-            <line>
-              <![CDATA[5. Iegūts aktualitātes datums: 27.09.2023.]]>
-            </line>
-            <line>
-              <![CDATA[6. Izvēlēta kontaktu sadaļa]]>
-            </line>
-            <line>
-              <![CDATA[7. Lasīt vairāk]]>
-            </line>
-            <line>
-              <![CDATA[8. Iestādes vadītājs ir: Aigars Undzēns
-Direktors]]>
-            </line>
-            <line>
-              <![CDATA[9. Izvēlēta Par mums sadaļa]]>
-            </line>
-            <line>
-              <![CDATA[10. Lasīt vairāk]]>
-            </line>
-            <line>
-              <![CDATA[10. Pēdējais labojums par mums: Publicēts: 16.01.2020.]]>
-            </line>
-            <line>
-              <![CDATA[11. Izvēlēta EN valoda]]>
-            </line>
-            <line>
-              <![CDATA[12. Izvēlēta LV valoda]]>
-            </line>
-            <line>
-              <![CDATA[13. Kontrasts melns]]>
-            </line>
-            <line>
-              <![CDATA[14. Kontrasts balts]]>
-            </line>
-            <line>
-              <![CDATA[ Lapa ir aizvērta]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- TVP_pamatlietasChrome -->
-        <test-method signature="TVP_pamatlietasEdge()[pri:0, instance:RUN_ALL.TVP_PamatlietasPOM@101952da]" started-at="2023-10-14T10:22:22 EEST" name="TVP_pamatlietasEdge" finished-at="2023-10-14T10:23:03 EEST" duration-ms="41498" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Edge ir palaists]]>
-            </line>
-            <line>
-              <![CDATA[1. VRAA lapa ir atvērta]]>
-            </line>
-            <line>
-              <![CDATA[2. VRAA lapa ir apstiprinātas sīkdatnes]]>
-            </line>
-            <line>
-              <![CDATA[3. Izvēlētas aktualitātes]]>
-            </line>
-            <line>
-              <![CDATA[4. Lasīt vairāk]]>
-            </line>
-            <line>
-              <![CDATA[5. Iegūts aktualitātes datums: 27.09.2023.]]>
-            </line>
-            <line>
-              <![CDATA[6. Izvēlēta kontaktu sadaļa]]>
-            </line>
-            <line>
-              <![CDATA[7. Lasīt vairāk]]>
-            </line>
-            <line>
-              <![CDATA[8. Iestādes vadītājs ir: Aigars Undzēns
-Direktors]]>
-            </line>
-            <line>
-              <![CDATA[9. Izvēlēta Par mums sadaļa]]>
-            </line>
-            <line>
-              <![CDATA[10. Lasīt vairāk]]>
-            </line>
-            <line>
-              <![CDATA[10. Pēdējais labojums par mums: Publicēts: 16.01.2020.]]>
-            </line>
-            <line>
-              <![CDATA[11. Izvēlēta EN valoda]]>
-            </line>
-            <line>
-              <![CDATA[12. Izvēlēta LV valoda]]>
-            </line>
-            <line>
-              <![CDATA[13. Kontrasts melns]]>
-            </line>
-            <line>
-              <![CDATA[14. Kontrasts balts]]>
-            </line>
-            <line>
-              <![CDATA[ Lapa ir aizvērta]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- TVP_pamatlietasEdge -->
-        <test-method signature="TVP_pamatlietasFire()[pri:0, instance:RUN_ALL.TVP_PamatlietasPOM@101952da]" started-at="2023-10-14T10:23:03 EEST" name="TVP_pamatlietasFire" finished-at="2023-10-14T10:24:12 EEST" duration-ms="69025" status="PASS">
+    <test started-at="2023-10-10T15:54:59 EEST" name="SC_Test21" finished-at="2023-10-10T15:56:33 EEST" duration-ms="93214">
+      <class name="RUN_ALL.LADP_POM_TMONS">
+        <test-method signature="LADP_FireTmons()[pri:1, instance:RUN_ALL.LADP_POM_TMONS@40cb8df7]" started-at="2023-10-10T15:55:00 EEST" name="LADP_FireTmons" finished-at="2023-10-10T15:55:30 EEST" duration-ms="29852" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: (//*[contains(@href,'a0f9-4c31-b43c-770e97a06fda')])[2] (tried for 0 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.1, moz:accessibilityChecks: false, moz:buildID: 20230927232528, moz:debuggerAddress: 127.0.0.1:39355, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15816, moz:profile: C:\Users\PETERI~1.TRO\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:39355/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f24c29c0-d2a6-4c58-90a9-456d78b711f7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: (//*[contains(@href,'a0f9-4c31-b43c-770e97a06fda')])[2] (tried for 0 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.1, moz:accessibilityChecks: false, moz:buildID: 20230927232528, moz:debuggerAddress: 127.0.0.1:39355, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15816, moz:profile: C:\Users\PETERI~1.TRO\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:39355/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f24c29c0-d2a6-4c58-90a9-456d78b711f7
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+at pages.LADP_homeLapa.izvēlāsVakances(LADP_homeLapa.java:78)
+at RUN_ALL.LADP_POM_TMONS.LADP_FireTmons(LADP_POM_TMONS.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
             <line>
               <![CDATA[Firefox ir palaists]]>
             </line>
             <line>
-              <![CDATA[1. VRAA lapa ir atvērta]]>
+              <![CDATA[1. Chrome LADP lapa ir atvērta]]>
             </line>
             <line>
-              <![CDATA[2. VRAA lapa ir apstiprinātas sīkdatnes]]>
+              <![CDATA[2. Atrod meklēšanas lauku]]>
             </line>
             <line>
-              <![CDATA[3. Izvēlētas aktualitātes]]>
+              <![CDATA[3. Ievada vakances]]>
             </line>
             <line>
-              <![CDATA[4. Lasīt vairāk]]>
+              <![CDATA[4. Spiež meklēt]]>
             </line>
             <line>
-              <![CDATA[5. Iegūts aktualitātes datums: 27.09.2023.]]>
+              <![CDATA[5. Pauze 5 sec]]>
             </line>
             <line>
-              <![CDATA[6. Izvēlēta kontaktu sadaļa]]>
+              <![CDATA[6. Spiež pirmo rezultātu/vakances]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LADP_FireTmons -->
+        <test-method signature="LADP_EdgeTmons()[pri:2, instance:RUN_ALL.LADP_POM_TMONS@40cb8df7]" started-at="2023-10-10T15:55:30 EEST" name="LADP_EdgeTmons" finished-at="2023-10-10T15:56:07 EEST" duration-ms="37131" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Edge ir palaists]]>
             </line>
             <line>
-              <![CDATA[7. Lasīt vairāk]]>
+              <![CDATA[1. Chrome LADP lapa ir atvērta]]>
             </line>
             <line>
-              <![CDATA[8. Iestādes vadītājs ir: Aigars Undzēns
-Direktors]]>
+              <![CDATA[2. Atrod meklēšanas lauku]]>
             </line>
             <line>
-              <![CDATA[9. Izvēlēta Par mums sadaļa]]>
+              <![CDATA[3. Ievada vakances]]>
             </line>
             <line>
-              <![CDATA[10. Lasīt vairāk]]>
+              <![CDATA[4. Spiež meklēt]]>
             </line>
             <line>
-              <![CDATA[10. Pēdējais labojums par mums: Publicēts: 16.01.2020.]]>
+              <![CDATA[5. Pauze 5 sec]]>
             </line>
             <line>
-              <![CDATA[11. Izvēlēta EN valoda]]>
+              <![CDATA[6. Spiež pirmo rezultātu/vakances]]>
             </line>
             <line>
-              <![CDATA[12. Izvēlēta LV valoda]]>
+              <![CDATA[7. Spiež uz pirmo resursu]]>
             </line>
             <line>
-              <![CDATA[13. Kontrasts melns]]>
+              <![CDATA[8. Aiziet uz datumu kad pēdējo reizi mainīts]]>
             </line>
             <line>
-              <![CDATA[14. Kontrasts balts]]>
+              <![CDATA[9. Spiež breadcrumb home]]>
+            </line>
+            <line>
+              <![CDATA[10. Pauze 5 sek]]>
+            </line>
+            <line>
+              <![CDATA[11. Meklē Izsludinātie iepirkumi (e-konkursi)]]>
+            </line>
+            <line>
+              <![CDATA[12. Spiež meklēt]]>
+            </line>
+            <line>
+              <![CDATA[13. Pauze 5 sek]]>
+            </line>
+            <line>
+              <![CDATA[14. Spiež uz pirmā rezultāta]]>
+            </line>
+            <line>
+              <![CDATA[15. Pauze 5 sek]]>
+            </line>
+            <line>
+              <![CDATA[16. Spiež uz 2023 datiem]]>
+            </line>
+            <line>
+              <![CDATA[17. Aiziet uz datumu kad pēdējo reizi mainīts]]>
+            </line>
+            <line>
+              <![CDATA[18. Spiež Datu API]]>
+            </line>
+            <line>
+              <![CDATA[19. Pauze 2 sek]]>
             </line>
             <line>
               <![CDATA[ Lapa ir aizvērta]]>
             </line>
           </reporter-output>
-        </test-method> <!-- TVP_pamatlietasFire -->
-      </class> <!-- RUN_ALL.TVP_PamatlietasPOM -->
-    </test> <!-- SC_Test -->
+        </test-method> <!-- LADP_EdgeTmons -->
+        <test-method signature="LADP_chromeTmons()[pri:3, instance:RUN_ALL.LADP_POM_TMONS@40cb8df7]" started-at="2023-10-10T15:56:07 EEST" name="LADP_chromeTmons" finished-at="2023-10-10T15:56:33 EEST" duration-ms="25627" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome ir palaists]]>
+            </line>
+            <line>
+              <![CDATA[1. Chrome LADP lapa ir atvērta]]>
+            </line>
+            <line>
+              <![CDATA[2. Atrod meklēšanas lauku]]>
+            </line>
+            <line>
+              <![CDATA[3. Ievada vakances]]>
+            </line>
+            <line>
+              <![CDATA[4. Spiež meklēt]]>
+            </line>
+            <line>
+              <![CDATA[5. Pauze 5 sec]]>
+            </line>
+            <line>
+              <![CDATA[6. Spiež pirmo rezultātu/vakances]]>
+            </line>
+            <line>
+              <![CDATA[7. Spiež uz pirmo resursu]]>
+            </line>
+            <line>
+              <![CDATA[8. Aiziet uz datumu kad pēdējo reizi mainīts]]>
+            </line>
+            <line>
+              <![CDATA[9. Spiež breadcrumb home]]>
+            </line>
+            <line>
+              <![CDATA[10. Pauze 5 sek]]>
+            </line>
+            <line>
+              <![CDATA[11. Meklē Izsludinātie iepirkumi (e-konkursi)]]>
+            </line>
+            <line>
+              <![CDATA[12. Spiež meklēt]]>
+            </line>
+            <line>
+              <![CDATA[13. Pauze 5 sek]]>
+            </line>
+            <line>
+              <![CDATA[14. Spiež uz pirmā rezultāta]]>
+            </line>
+            <line>
+              <![CDATA[15. Pauze 5 sek]]>
+            </line>
+            <line>
+              <![CDATA[16. Spiež uz 2023 datiem]]>
+            </line>
+            <line>
+              <![CDATA[17. Aiziet uz datumu kad pēdējo reizi mainīts]]>
+            </line>
+            <line>
+              <![CDATA[18. Spiež Datu API]]>
+            </line>
+            <line>
+              <![CDATA[19. Pauze 2 sek]]>
+            </line>
+            <line>
+              <![CDATA[ Lapa ir aizvērta]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LADP_chromeTmons -->
+      </class> <!-- RUN_ALL.LADP_POM_TMONS -->
+    </test> <!-- SC_Test21 -->
   </suite> <!-- Default Suite -->
 </testng-results>

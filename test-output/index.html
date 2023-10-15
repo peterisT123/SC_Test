@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_Suite" class="navigator-link">
-              <span class="suite-name border-passed">Default Suite</span>
+              <span class="suite-name border-failed">Default Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_Suite" class="navigator-link ">
-                    <span>C:\Users\PC\AppData\Local\JetBrains\IdeaIC2023.2\temp-testng-customsuite.xml</span>
+                    <span>C:\Users\peteris.troksa\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_Suite" class="hide-methods failed suite-Default_Suite"> (hide)</a> <!-- hide-methods failed suite-Default_Suite -->
+                      <a href="#" panel-name="suite-Default_Suite" class="show-methods failed suite-Default_Suite"> (show)</a> <!-- show-methods failed suite-Default_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="RUN_ALL.LADP_POM_TMONS" class="method navigator-link" hash-for-method="LADP_FireTmons">LADP_FireTmons</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,17 +117,12 @@
                     <div class="method-list-content passed suite-Default_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_Suite" title="RUN_ALL.TVP_PamatlietasPOM" class="method navigator-link" hash-for-method="TVP_pamatlietasChrome">TVP_pamatlietasChrome</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_Suite" title="RUN_ALL.LADP_POM_TMONS" class="method navigator-link" hash-for-method="LADP_EdgeTmons">LADP_EdgeTmons</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_Suite" title="RUN_ALL.TVP_PamatlietasPOM" class="method navigator-link" hash-for-method="TVP_pamatlietasEdge">TVP_pamatlietasEdge</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_Suite" title="RUN_ALL.TVP_PamatlietasPOM" class="method navigator-link" hash-for-method="TVP_pamatlietasFire">TVP_pamatlietasFire</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_Suite" title="RUN_ALL.LADP_POM_TMONS" class="method navigator-link" hash-for-method="LADP_chromeTmons">LADP_chromeTmons</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_Suite -->
@@ -128,31 +137,54 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_Suite" class="panel Default_Suite">
-          <div class="suite-Default_Suite-class-passed">
+          <div class="suite-Default_Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">RUN_ALL.TVP_PamatlietasPOM</span>
+              <img src="failed.png"/>
+              <span class="class-name">RUN_ALL.LADP_POM_TMONS</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="TVP_pamatlietasChrome">
-                  </a> <!-- TVP_pamatlietasChrome -->
-                  <span class="method-name">TVP_pamatlietasChrome</span>
+                  <a name="LADP_FireTmons">
+                  </a> <!-- LADP_FireTmons -->
+                  <span class="method-name">LADP_FireTmons</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: (//*[contains(@href,&apos;a0f9-4c31-b43c-770e97a06fda&apos;)])[2] (tried for 0 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.1, moz:accessibilityChecks: false, moz:buildID: 20230927232528, moz:debuggerAddress: 127.0.0.1:39355, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15816, moz:profile: C:\Users\PETERI~1.TRO\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:39355/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f24c29c0-d2a6-4c58-90a9-456d78b711f7
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at pages.LADP_homeLapa.izvēlāsVakances(LADP_homeLapa.java:78)
+	at RUN_ALL.LADP_POM_TMONS.LADP_FireTmons(LADP_POM_TMONS.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_Suite-class-failed -->
+          <div class="suite-Default_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RUN_ALL.LADP_POM_TMONS</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LADP_EdgeTmons">
+                  </a> <!-- LADP_EdgeTmons -->
+                  <span class="method-name">LADP_EdgeTmons</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="TVP_pamatlietasEdge">
-                  </a> <!-- TVP_pamatlietasEdge -->
-                  <span class="method-name">TVP_pamatlietasEdge</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TVP_pamatlietasFire">
-                  </a> <!-- TVP_pamatlietasFire -->
-                  <span class="method-name">TVP_pamatlietasFire</span>
+                  <a name="LADP_chromeTmons">
+                  </a> <!-- LADP_chromeTmons -->
+                  <span class="method-name">LADP_chromeTmons</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -160,18 +192,18 @@
         </div> <!-- panel Default_Suite -->
         <div panel-name="test-xml-Default_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\PC\AppData\Local\JetBrains\IdeaIC2023.2\temp-testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\peteris.troksa\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Default Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;SC_Test&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SC_Test21&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;RUN_ALL.TVP_PamatlietasPOM&quot;/&gt;
+      &lt;class name=&quot;RUN_ALL.LADP_POM_TMONS&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- SC_Test --&gt;
+  &lt;/test&gt; &lt;!-- SC_Test21 --&gt;
 &lt;/suite&gt; &lt;!-- Default Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -183,7 +215,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">SC_Test (1 class)</span>
+                <span class="test-name">SC_Test21 (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -211,22 +243,22 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'TVP_pamatlietasFire')
-data.setCell(0, 2, 'RUN_ALL.TVP_PamatlietasPOM')
-data.setCell(0, 3, 69025);
+data.setCell(0, 1, 'LADP_EdgeTmons')
+data.setCell(0, 2, 'RUN_ALL.LADP_POM_TMONS')
+data.setCell(0, 3, 37131);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'TVP_pamatlietasEdge')
-data.setCell(1, 2, 'RUN_ALL.TVP_PamatlietasPOM')
-data.setCell(1, 3, 41498);
+data.setCell(1, 1, 'LADP_FireTmons')
+data.setCell(1, 2, 'RUN_ALL.LADP_POM_TMONS')
+data.setCell(1, 3, 29852);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'TVP_pamatlietasChrome')
-data.setCell(2, 2, 'RUN_ALL.TVP_PamatlietasPOM')
-data.setCell(2, 3, 37963);
+data.setCell(2, 1, 'LADP_chromeTmons')
+data.setCell(2, 2, 'RUN_ALL.LADP_POM_TMONS')
+data.setCell(2, 3, 25627);
 window.suiteTableData['Default_Suite']= { tableData: data, tableDiv: 'times-div-Default_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Default_Suite">
               </div> <!-- times-div-Default_Suite -->
             </div> <!-- times-div -->
@@ -238,72 +270,67 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">TVP_pamatlietasFire</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Firefox ir palaists</span>
-                <span class="reporter-method-output">1. VRAA lapa ir atvērta</span>
-                <span class="reporter-method-output">2. VRAA lapa ir apstiprinātas sīkdatnes</span>
-                <span class="reporter-method-output">3. Izvēlētas aktualitātes</span>
-                <span class="reporter-method-output">4. Lasīt vairāk</span>
-                <span class="reporter-method-output">5. Iegūts aktualitātes datums: 27.09.2023.</span>
-                <span class="reporter-method-output">6. Izvēlēta kontaktu sadaļa</span>
-                <span class="reporter-method-output">7. Lasīt vairāk</span>
-                <span class="reporter-method-output">8. Iestādes vadītājs ir: Aigars Undzēns
-Direktors</span>
-                <span class="reporter-method-output">9. Izvēlēta Par mums sadaļa</span>
-                <span class="reporter-method-output">10. Lasīt vairāk</span>
-                <span class="reporter-method-output">10. Pēdējais labojums par mums: Publicēts: 16.01.2020.</span>
-                <span class="reporter-method-output">11. Izvēlēta EN valoda</span>
-                <span class="reporter-method-output">12. Izvēlēta LV valoda</span>
-                <span class="reporter-method-output">13. Kontrasts melns</span>
-                <span class="reporter-method-output">14. Kontrasts balts</span>
-                <span class="reporter-method-output"> Lapa ir aizvērta</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">TVP_pamatlietasChrome</span>
+              <span class="reporter-method-name">LADP_chromeTmons</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Chrome ir palaists</span>
-                <span class="reporter-method-output">1. VRAA lapa ir atvērta</span>
-                <span class="reporter-method-output">2. VRAA lapa ir apstiprinātas sīkdatnes</span>
-                <span class="reporter-method-output">3. Izvēlētas aktualitātes</span>
-                <span class="reporter-method-output">4. Lasīt vairāk</span>
-                <span class="reporter-method-output">5. Iegūts aktualitātes datums: 27.09.2023.</span>
-                <span class="reporter-method-output">6. Izvēlēta kontaktu sadaļa</span>
-                <span class="reporter-method-output">7. Lasīt vairāk</span>
-                <span class="reporter-method-output">8. Iestādes vadītājs ir: Aigars Undzēns
-Direktors</span>
-                <span class="reporter-method-output">9. Izvēlēta Par mums sadaļa</span>
-                <span class="reporter-method-output">10. Lasīt vairāk</span>
-                <span class="reporter-method-output">10. Pēdējais labojums par mums: Publicēts: 16.01.2020.</span>
-                <span class="reporter-method-output">11. Izvēlēta EN valoda</span>
-                <span class="reporter-method-output">12. Izvēlēta LV valoda</span>
-                <span class="reporter-method-output">13. Kontrasts melns</span>
-                <span class="reporter-method-output">14. Kontrasts balts</span>
+                <span class="reporter-method-output">1. Chrome LADP lapa ir atvērta</span>
+                <span class="reporter-method-output">2. Atrod meklēšanas lauku</span>
+                <span class="reporter-method-output">3. Ievada vakances</span>
+                <span class="reporter-method-output">4. Spiež meklēt</span>
+                <span class="reporter-method-output">5. Pauze 5 sec</span>
+                <span class="reporter-method-output">6. Spiež pirmo rezultātu/vakances</span>
+                <span class="reporter-method-output">7. Spiež uz pirmo resursu</span>
+                <span class="reporter-method-output">8. Aiziet uz datumu kad pēdējo reizi mainīts</span>
+                <span class="reporter-method-output">9. Spiež breadcrumb home</span>
+                <span class="reporter-method-output">10. Pauze 5 sek</span>
+                <span class="reporter-method-output">11. Meklē Izsludinātie iepirkumi (e-konkursi)</span>
+                <span class="reporter-method-output">12. Spiež meklēt</span>
+                <span class="reporter-method-output">13. Pauze 5 sek</span>
+                <span class="reporter-method-output">14. Spiež uz pirmā rezultāta</span>
+                <span class="reporter-method-output">15. Pauze 5 sek</span>
+                <span class="reporter-method-output">16. Spiež uz 2023 datiem</span>
+                <span class="reporter-method-output">17. Aiziet uz datumu kad pēdējo reizi mainīts</span>
+                <span class="reporter-method-output">18. Spiež Datu API</span>
+                <span class="reporter-method-output">19. Pauze 2 sek</span>
                 <span class="reporter-method-output"> Lapa ir aizvērta</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">TVP_pamatlietasEdge</span>
+              <span class="reporter-method-name">LADP_EdgeTmons</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Edge ir palaists</span>
-                <span class="reporter-method-output">1. VRAA lapa ir atvērta</span>
-                <span class="reporter-method-output">2. VRAA lapa ir apstiprinātas sīkdatnes</span>
-                <span class="reporter-method-output">3. Izvēlētas aktualitātes</span>
-                <span class="reporter-method-output">4. Lasīt vairāk</span>
-                <span class="reporter-method-output">5. Iegūts aktualitātes datums: 27.09.2023.</span>
-                <span class="reporter-method-output">6. Izvēlēta kontaktu sadaļa</span>
-                <span class="reporter-method-output">7. Lasīt vairāk</span>
-                <span class="reporter-method-output">8. Iestādes vadītājs ir: Aigars Undzēns
-Direktors</span>
-                <span class="reporter-method-output">9. Izvēlēta Par mums sadaļa</span>
-                <span class="reporter-method-output">10. Lasīt vairāk</span>
-                <span class="reporter-method-output">10. Pēdējais labojums par mums: Publicēts: 16.01.2020.</span>
-                <span class="reporter-method-output">11. Izvēlēta EN valoda</span>
-                <span class="reporter-method-output">12. Izvēlēta LV valoda</span>
-                <span class="reporter-method-output">13. Kontrasts melns</span>
-                <span class="reporter-method-output">14. Kontrasts balts</span>
+                <span class="reporter-method-output">1. Chrome LADP lapa ir atvērta</span>
+                <span class="reporter-method-output">2. Atrod meklēšanas lauku</span>
+                <span class="reporter-method-output">3. Ievada vakances</span>
+                <span class="reporter-method-output">4. Spiež meklēt</span>
+                <span class="reporter-method-output">5. Pauze 5 sec</span>
+                <span class="reporter-method-output">6. Spiež pirmo rezultātu/vakances</span>
+                <span class="reporter-method-output">7. Spiež uz pirmo resursu</span>
+                <span class="reporter-method-output">8. Aiziet uz datumu kad pēdējo reizi mainīts</span>
+                <span class="reporter-method-output">9. Spiež breadcrumb home</span>
+                <span class="reporter-method-output">10. Pauze 5 sek</span>
+                <span class="reporter-method-output">11. Meklē Izsludinātie iepirkumi (e-konkursi)</span>
+                <span class="reporter-method-output">12. Spiež meklēt</span>
+                <span class="reporter-method-output">13. Pauze 5 sek</span>
+                <span class="reporter-method-output">14. Spiež uz pirmā rezultāta</span>
+                <span class="reporter-method-output">15. Pauze 5 sek</span>
+                <span class="reporter-method-output">16. Spiež uz 2023 datiem</span>
+                <span class="reporter-method-output">17. Aiziet uz datumu kad pēdējo reizi mainīts</span>
+                <span class="reporter-method-output">18. Spiež Datu API</span>
+                <span class="reporter-method-output">19. Pauze 2 sek</span>
                 <span class="reporter-method-output"> Lapa ir aizvērta</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">LADP_FireTmons</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Firefox ir palaists</span>
+                <span class="reporter-method-output">1. Chrome LADP lapa ir atvērta</span>
+                <span class="reporter-method-output">2. Atrod meklēšanas lauku</span>
+                <span class="reporter-method-output">3. Ievada vakances</span>
+                <span class="reporter-method-output">4. Spiež meklēt</span>
+                <span class="reporter-method-output">5. Pauze 5 sec</span>
+                <span class="reporter-method-output">6. Spiež pirmo rezultātu/vakances</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -321,18 +348,20 @@ Direktors</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">RUN_ALL.TVP_PamatlietasPOM</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">RUN_ALL.LADP_POM_TMONS</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">TVP_pamatlietasChrome</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LADP_FireTmons</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">TVP_pamatlietasEdge</span>
-                <span class="method-start">38432 ms</span>
+                <span class="method-name">LADP_EdgeTmons</span>
+                <span class="method-start">30188 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">TVP_pamatlietasFire</span>
-                <span class="method-start">79940 ms</span>
+                <span class="method-name">LADP_chromeTmons</span>
+                <span class="method-start">67326 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
