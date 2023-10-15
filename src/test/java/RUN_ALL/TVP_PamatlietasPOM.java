@@ -20,6 +20,8 @@ public class TVP_PamatlietasPOM extends DriverCommon {
             tvp_pamatlietasTest.mainītValoduUzEN();
             tvp_pamatlietasTest.mainītValoduUzLV();
             tvp_pamatlietasTest.melnsKonstrasts();
+            tvp_pamatlietasTest.meklētājaPārbaude();
+            tvp_pamatlietasTest.pieteiktiesJaunumiem();
             driverCommon.aizvertDriverFirefox();
         }
     @Test
@@ -34,6 +36,8 @@ public class TVP_PamatlietasPOM extends DriverCommon {
         tvp_pamatlietasTest.mainītValoduUzEN();
         tvp_pamatlietasTest.mainītValoduUzLV();
         tvp_pamatlietasTest.melnsKonstrasts();
+        tvp_pamatlietasTest.meklētājaPārbaude();
+        tvp_pamatlietasTest.pieteiktiesJaunumiem();
         driverCommon.aizvertDriverChrome();
     }
     @Test
@@ -48,6 +52,8 @@ public class TVP_PamatlietasPOM extends DriverCommon {
         tvp_pamatlietasTest.mainītValoduUzEN();
         tvp_pamatlietasTest.mainītValoduUzLV();
         tvp_pamatlietasTest.melnsKonstrasts();
+        tvp_pamatlietasTest.meklētājaPārbaude();
+        tvp_pamatlietasTest.pieteiktiesJaunumiem();
         driverCommon.aizvertDriverEdge();
     }
 

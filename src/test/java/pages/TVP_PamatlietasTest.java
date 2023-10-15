@@ -17,6 +17,8 @@ public class TVP_PamatlietasTest extends DriverCommon {
 
     private final By Aktualitātes = By.xpath("(//*[@href='/lv/jaunumi'])[1]");
 
+    private final String meklētājvārds = "Projekti";
+
     public void atverLADPlapu() {
         driver.get("https://www.vraa.gov.lv/lv");
         driver.manage().window().maximize();
@@ -108,7 +110,7 @@ public class TVP_PamatlietasTest extends DriverCommon {
         } else {
             System.out.println("Kontrasts nomainījies  " + vaipirmsMainaKonstrastu);
             Reporter.log("13. Kontrasts melns");
-            System.out.println("13. Kontrasts melns");
+            System.out.println("Kontrasts melns");
 
         }
         WebElement pirmsMainaKontrastu2 = driver.findElement(By.xpath("(//*[@class='fal icon-eye'])[1]"));
@@ -120,28 +122,59 @@ public class TVP_PamatlietasTest extends DriverCommon {
             driver.findElement(By.xpath("//*[@class='fas icon-contrast']")).click();
             driver.findElement(By.xpath("(//*[@class='fal icon-eye'])[1]")).click();
             Reporter.log("14. Kontrasts balts");
-            System.out.println("14. Kontrasts balts");
+            System.out.println("Kontrasts balts");
 
         } else {
             System.out.println("Kontrasts nomainījies " + vaipirmsMainaKonstrastu2);
 
         }
     }
+
+    public void meklētājaPārbaude() {
+        WebElement vaiMeklejtajs = driver.findElement(By.xpath("//*[@class='fal icon-search']"));
+        Boolean vaiVaiMeklejtajs = vaiMeklejtajs.isDisplayed();
+
+        if (vaiVaiMeklejtajs) {
+            Reporter.log("15. Meklētājs pieejams");
+            System.out.println("Meklētājs pieejams--- " );
+            driver.findElement(By.xpath("//*[@class='fal icon-search']")).click();
+            driver.findElement(By.xpath("//*[@id='edit-search']")).sendKeys(meklētājvārds);
+            Reporter.log("16. Meklētājvārds ievadīts");
+            System.out.println("Meklētājvārds ievadīts");
+            driver.findElement(By.xpath("//*[contains(@id,'button')]")).click();
+            Reporter.log("17. Poga meklēt nospiesta");
+            System.out.println("Poga meklēt nospiesta");
+
+            String meklēšanasRezultāts = driver.findElement(By.xpath("(//*[contains(@target,'_blank')])[3]")).getText();
+            System.out.println(meklēšanasRezultāts);
+            Reporter.log("18. Pirmais meklēšanas rezutlāts ir --- : " + meklēšanasRezultāts);
+            System.out.println("Pirmais meklēšanas rezutlāts ir --- " + meklēšanasRezultāts);
+
+
+        } else {
+            System.out.println("Nevar atrast meklētāju " + vaiMeklejtajs);
+        }
+        driver.findElement(By.xpath("(//img[contains(@src,'/vraa_mazs_logo_1')])[1]")).click(); //iet uz sākuma skatu
+    }
+    public void pieteiktiesJaunumiem(){
+
+        WebElement ievaditValodu = driver.findElement(By.xpath("(//*[contains(text(),'Latviešu')])[2]"));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofMillis(500));
+        wait.until(ExpectedConditions.elementToBeClickable(ievaditValodu));
+        ievaditValodu.click();
+        System.out.println("Atzīmēta jaunumu valoda LATVIEŠU " );
+        driver.findElement(By.xpath("(//*[contains(@id,'edit-email')])")).sendKeys("test@testttt.com");
+        System.out.println("Pieteikties jaunumiem var " );
+        Reporter.log("18. Pieteikties jaunumiem var");
+
+    }
+
+
+
 }
 
 
-//
-//        boolean isElementVisible = driver.findElement(By.xpath("//*[@class='fas icon-contrast']")).isDisplayed();
-//        System.out.println("Ir kontrasta ikona  " + isElementVisible);
-//        Reporter.log("13. Ir kontrasta ikona");
-//        driver.findElement(By.xpath("//*[@class='fas icon-contrast']")).click();
-//        driver.findElement(By.xpath("//button[@id='contrast-1']")).click();
-//        System.out.println("Izvēlēts belnbalsts fons  " +isElementVisible);
-//        Reporter.log("13. Izvēlēts belnbalsts fons");
-//        driver.findElement(By.xpath("//*[@class='fas icon-contrast']")).click();
-//        driver.findElement(By.xpath("//button[@id='contrast-2']")).click();
-//        System.out.println("Izvēlēts noklusējuma fons  "+isElementVisible);
-//        Reporter.log("14. Izvēlēts noklusējuma fons");
+
 
 
 
