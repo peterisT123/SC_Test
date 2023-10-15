@@ -22,13 +22,10 @@ public static WebDriver driver;
         driver   = new FirefoxDriver();
         driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
-        driver.get("https://dpptest.vraa.gov.lv/lv");
-        WebDriver.Timeouts wait = driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.get("https://data.gov.lv/lv");
         driver.findElement(By.xpath("/html/body/div/div[1]/div/div/div[4]/div/nav/ul/li[2]/a")).click();
-        driver.findElement(By.xpath("//*[@id=\"field-login\"]")).sendKeys("peteris-troksa-4189");
-        driver.findElement(By.xpath("//*[@id=\"field-password\"]")).sendKeys("Stirna123!@#");
         driver.findElement(By.xpath("//button[@type='submit']")).click();
-        //driver.close();
+        driver.close();
         System.out.println(" atverās lapa LADP_firefox");
     }
     @Test(priority = 3)
@@ -40,8 +37,7 @@ public static WebDriver driver;
         driver.get("https://dpptest.vraa.gov.lv/lv");
         WebDriver.Timeouts wait = driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.findElement(By.xpath("/html/body/div/div[1]/div/div/div[4]/div/nav/ul/li[2]/a")).click();
-        driver.findElement(By.xpath("//*[@id=\"field-login\"]")).sendKeys("peteris-troksa-4189");
-        driver.findElement(By.xpath("//*[@id=\"field-password\"]")).sendKeys("Stirna123!@#");
+
         driver.findElement(By.xpath("//button[@type='submit']")).click();
         //driver.close();
         System.out.println(" atverās lapa LADP_edge");
@@ -61,8 +57,7 @@ public static WebDriver driver;
         driver.get("https://dpptest.vraa.gov.lv/lv");
         WebDriver.Timeouts wait = driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.findElement(By.xpath("/html/body/div/div[1]/div/div/div[4]/div/nav/ul/li[2]/a")).click();
-        driver.findElement(By.xpath("//*[@id=\"field-login\"]")).sendKeys("peteris-troksa-4189");
-        driver.findElement(By.xpath("//*[@id=\"field-password\"]")).sendKeys("Stirna123!@#");
+
         driver.findElement(By.xpath("//button[@type='submit']")).click();
         //driver.close();
         System.out.println(" atverās lapa LADP_chrome");
