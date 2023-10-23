@@ -8,6 +8,7 @@ import org.testng.Reporter;
 
 public class DriverCommon {
     public static org.openqa.selenium.WebDriver driver;
+    protected Object atvertGEOlapa;
 
     public void startDriverChrome(){
         driver  = new ChromeDriver();

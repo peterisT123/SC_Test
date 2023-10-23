@@ -2,65 +2,139 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
     <line>
+      <![CDATA[Firefox ir palaists]]>
+    </line>
+    <line>
+      <![CDATA[1.  GEO lapa ir atvērta]]>
+    </line>
+    <line>
+      <![CDATA[2. Apstiprina sīkdantes]]>
+    </line>
+    <line>
+      <![CDATA[3.  Nospiež ģeoprodukti]]>
+    </line>
+    <line>
+      <![CDATA[4.  Ievada augsnes]]>
+    </line>
+    <line>
+      <![CDATA[5.  Spiež meklēt]]>
+    </line>
+    <line>
+      <![CDATA[ Pirmais rezultāts ir: Augsnes dziļrakumi (lejupielādes datne)]]>
+    </line>
+    <line>
+      <![CDATA[6.  Spiež pirmo rezultātu]]>
+    </line>
+    <line>
+      <![CDATA[7.  Atver galeriju]]>
+    </line>
+    <line>
+      <![CDATA[8. Pauze 5 sek]]>
+    </line>
+    <line>
+      <![CDATA[9. Atver karšu iframe]]>
+    </line>
+    <line>
+      <![CDATA[10. Spiež pirmo karti]]>
+    </line>
+    <line>
+      <![CDATA[11. Pauze 3 sek]]>
+    </line>
+    <line>
+      <![CDATA[12. Nospiež uz meklētāja]]>
+    </line>
+    <line>
+      <![CDATA[13. Ievada tekstu]]>
+    </line>
+    <line>
+      <![CDATA[14. Atver Tapis]]>
+    </line>
+    <line>
+      <![CDATA[15. Aizvērt popup]]>
+    </line>
+    <line>
+      <![CDATA[16. Ieraksta meklētājā tekstu]]>
+    </line>
+    <line>
+      <![CDATA[17. Atver failu]]>
+    </line>
+    <line>
+      <![CDATA[18. Pauze 5 sek]]>
+    </line>
+    <line>
+      <![CDATA[19. Atver failu 2 ]]>
+    </line>
+    <line>
+      <![CDATA[20. Pauze 2 sek]]>
+    </line>
+    <line>
+      <![CDATA[ Lapa ir aizvērta]]>
+    </line>
+    <line>
       <![CDATA[Chrome ir palaists]]>
     </line>
     <line>
-      <![CDATA[1. VRAA lapa ir atvērta]]>
+      <![CDATA[1.  GEO lapa ir atvērta]]>
     </line>
     <line>
-      <![CDATA[2. VRAA lapa ir apstiprinātas sīkdatnes]]>
+      <![CDATA[2. Apstiprina sīkdantes]]>
     </line>
     <line>
-      <![CDATA[3. Izvēlētas aktualitātes]]>
+      <![CDATA[3.  Nospiež ģeoprodukti]]>
     </line>
     <line>
-      <![CDATA[4. Lasīt vairāk]]>
+      <![CDATA[4.  Ievada augsnes]]>
     </line>
     <line>
-      <![CDATA[5. Iegūts aktualitātes datums: 27.09.2023.]]>
+      <![CDATA[5.  Spiež meklēt]]>
     </line>
     <line>
-      <![CDATA[6. Izvēlēta kontaktu sadaļa]]>
+      <![CDATA[ Pirmais rezultāts ir: Augsnes dziļrakumi (lejupielādes datne)]]>
     </line>
     <line>
-      <![CDATA[7. Lasīt vairāk]]>
+      <![CDATA[6.  Spiež pirmo rezultātu]]>
     </line>
     <line>
-      <![CDATA[8. Iestādes vadītājs ir: Aigars Undzēns
-Direktors]]>
+      <![CDATA[7.  Atver galeriju]]>
     </line>
     <line>
-      <![CDATA[9. Izvēlēta Par mums sadaļa]]>
+      <![CDATA[8. Pauze 5 sek]]>
     </line>
     <line>
-      <![CDATA[10. Lasīt vairāk]]>
+      <![CDATA[9. Atver karšu iframe]]>
     </line>
     <line>
-      <![CDATA[10. Pēdējais labojums par mums: Publicēts: 16.01.2020.]]>
+      <![CDATA[10. Spiež pirmo karti]]>
     </line>
     <line>
-      <![CDATA[11. Izvēlēta EN valoda]]>
+      <![CDATA[11. Pauze 3 sek]]>
     </line>
     <line>
-      <![CDATA[12. Izvēlēta LV valoda]]>
+      <![CDATA[12. Nospiež uz meklētāja]]>
     </line>
     <line>
-      <![CDATA[14. Kontrasts balts]]>
+      <![CDATA[13. Ievada tekstu]]>
     </line>
     <line>
-      <![CDATA[15. Meklētājs pieejams]]>
+      <![CDATA[14. Atver Tapis]]>
     </line>
     <line>
-      <![CDATA[16. Meklētājvārds ievadīts]]>
+      <![CDATA[15. Aizvērt popup]]>
     </line>
     <line>
-      <![CDATA[17. Poga meklēt nospiesta]]>
+      <![CDATA[16. Ieraksta meklētājā tekstu]]>
     </line>
     <line>
-      <![CDATA[18. Pirmais meklēšanas rezutlāts ir --- : Turpinās projektu iesniegumu izvērtēšana projektu konkursā aktivitātē “Sadarbības projekti vides politikas veidošanai un īstenošanai”]]>
+      <![CDATA[17. Atver failu]]>
     </line>
     <line>
-      <![CDATA[18. Pieteikties jaunumiem var]]>
+      <![CDATA[18. Pauze 5 sek]]>
+    </line>
+    <line>
+      <![CDATA[19. Atver failu 2 ]]>
+    </line>
+    <line>
+      <![CDATA[20. Pauze 2 sek]]>
     </line>
     <line>
       <![CDATA[ Lapa ir aizvērta]]>
@@ -69,341 +143,297 @@ Direktors]]>
       <![CDATA[Edge ir palaists]]>
     </line>
     <line>
-      <![CDATA[1. VRAA lapa ir atvērta]]>
+      <![CDATA[1.  GEO lapa ir atvērta]]>
     </line>
     <line>
-      <![CDATA[2. VRAA lapa ir apstiprinātas sīkdatnes]]>
+      <![CDATA[2. Apstiprina sīkdantes]]>
     </line>
     <line>
-      <![CDATA[3. Izvēlētas aktualitātes]]>
+      <![CDATA[3.  Nospiež ģeoprodukti]]>
     </line>
     <line>
-      <![CDATA[4. Lasīt vairāk]]>
+      <![CDATA[4.  Ievada augsnes]]>
     </line>
     <line>
-      <![CDATA[5. Iegūts aktualitātes datums: 27.09.2023.]]>
+      <![CDATA[5.  Spiež meklēt]]>
     </line>
     <line>
-      <![CDATA[6. Izvēlēta kontaktu sadaļa]]>
+      <![CDATA[ Pirmais rezultāts ir: Augsnes dziļrakumi (lejupielādes datne)]]>
     </line>
     <line>
-      <![CDATA[7. Lasīt vairāk]]>
+      <![CDATA[6.  Spiež pirmo rezultātu]]>
     </line>
     <line>
-      <![CDATA[8. Iestādes vadītājs ir: Aigars Undzēns
-Direktors]]>
+      <![CDATA[7.  Atver galeriju]]>
     </line>
     <line>
-      <![CDATA[9. Izvēlēta Par mums sadaļa]]>
+      <![CDATA[8. Pauze 5 sek]]>
     </line>
     <line>
-      <![CDATA[10. Lasīt vairāk]]>
+      <![CDATA[9. Atver karšu iframe]]>
     </line>
     <line>
-      <![CDATA[10. Pēdējais labojums par mums: Publicēts: 16.01.2020.]]>
+      <![CDATA[10. Spiež pirmo karti]]>
     </line>
     <line>
-      <![CDATA[11. Izvēlēta EN valoda]]>
+      <![CDATA[11. Pauze 3 sek]]>
     </line>
     <line>
-      <![CDATA[12. Izvēlēta LV valoda]]>
+      <![CDATA[12. Nospiež uz meklētāja]]>
     </line>
     <line>
-      <![CDATA[14. Kontrasts balts]]>
+      <![CDATA[13. Ievada tekstu]]>
     </line>
     <line>
-      <![CDATA[15. Meklētājs pieejams]]>
+      <![CDATA[14. Atver Tapis]]>
     </line>
     <line>
-      <![CDATA[16. Meklētājvārds ievadīts]]>
+      <![CDATA[15. Aizvērt popup]]>
     </line>
     <line>
-      <![CDATA[17. Poga meklēt nospiesta]]>
+      <![CDATA[16. Ieraksta meklētājā tekstu]]>
     </line>
     <line>
-      <![CDATA[18. Pirmais meklēšanas rezutlāts ir --- : Turpinās projektu iesniegumu izvērtēšana projektu konkursā aktivitātē “Sadarbības projekti vides politikas veidošanai un īstenošanai”]]>
+      <![CDATA[17. Atver failu]]>
     </line>
     <line>
-      <![CDATA[18. Pieteikties jaunumiem var]]>
+      <![CDATA[18. Pauze 5 sek]]>
     </line>
     <line>
-      <![CDATA[ Lapa ir aizvērta]]>
+      <![CDATA[19. Atver failu 2 ]]>
     </line>
     <line>
-      <![CDATA[Firefox ir palaists]]>
-    </line>
-    <line>
-      <![CDATA[1. VRAA lapa ir atvērta]]>
-    </line>
-    <line>
-      <![CDATA[2. VRAA lapa ir apstiprinātas sīkdatnes]]>
-    </line>
-    <line>
-      <![CDATA[3. Izvēlētas aktualitātes]]>
-    </line>
-    <line>
-      <![CDATA[4. Lasīt vairāk]]>
-    </line>
-    <line>
-      <![CDATA[5. Iegūts aktualitātes datums: 27.09.2023.]]>
-    </line>
-    <line>
-      <![CDATA[6. Izvēlēta kontaktu sadaļa]]>
-    </line>
-    <line>
-      <![CDATA[7. Lasīt vairāk]]>
-    </line>
-    <line>
-      <![CDATA[8. Iestādes vadītājs ir: Aigars Undzēns
-Direktors]]>
-    </line>
-    <line>
-      <![CDATA[9. Izvēlēta Par mums sadaļa]]>
-    </line>
-    <line>
-      <![CDATA[10. Lasīt vairāk]]>
-    </line>
-    <line>
-      <![CDATA[10. Pēdējais labojums par mums: Publicēts: 16.01.2020.]]>
-    </line>
-    <line>
-      <![CDATA[11. Izvēlēta EN valoda]]>
-    </line>
-    <line>
-      <![CDATA[12. Izvēlēta LV valoda]]>
-    </line>
-    <line>
-      <![CDATA[14. Kontrasts balts]]>
-    </line>
-    <line>
-      <![CDATA[15. Meklētājs pieejams]]>
-    </line>
-    <line>
-      <![CDATA[16. Meklētājvārds ievadīts]]>
-    </line>
-    <line>
-      <![CDATA[17. Poga meklēt nospiesta]]>
-    </line>
-    <line>
-      <![CDATA[18. Pirmais meklēšanas rezutlāts ir --- : Turpinās projektu iesniegumu izvērtēšana projektu konkursā aktivitātē “Sadarbības projekti vides politikas veidošanai un īstenošanai”]]>
-    </line>
-    <line>
-      <![CDATA[18. Pieteikties jaunumiem var]]>
+      <![CDATA[20. Pauze 2 sek]]>
     </line>
     <line>
       <![CDATA[ Lapa ir aizvērta]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-10-15T16:20:53 EEST" name="Default Suite" finished-at="2023-10-15T16:22:22 EEST" duration-ms="89379">
+  <suite started-at="2023-10-23T10:47:32 EEST" name="Default Suite" finished-at="2023-10-23T10:49:49 EEST" duration-ms="137146">
     <groups>
     </groups>
-    <test started-at="2023-10-15T16:20:53 EEST" name="SC_Test21" finished-at="2023-10-15T16:22:22 EEST" duration-ms="89379">
-      <class name="RUN_ALL.TVP_PamatlietasPOM">
-        <test-method signature="TVP_pamatlietasChrome()[pri:0, instance:RUN_ALL.TVP_PamatlietasPOM@1a18644]" started-at="2023-10-15T16:20:53 EEST" name="TVP_pamatlietasChrome" finished-at="2023-10-15T16:21:24 EEST" duration-ms="30555" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Chrome ir palaists]]>
-            </line>
-            <line>
-              <![CDATA[1. VRAA lapa ir atvērta]]>
-            </line>
-            <line>
-              <![CDATA[2. VRAA lapa ir apstiprinātas sīkdatnes]]>
-            </line>
-            <line>
-              <![CDATA[3. Izvēlētas aktualitātes]]>
-            </line>
-            <line>
-              <![CDATA[4. Lasīt vairāk]]>
-            </line>
-            <line>
-              <![CDATA[5. Iegūts aktualitātes datums: 27.09.2023.]]>
-            </line>
-            <line>
-              <![CDATA[6. Izvēlēta kontaktu sadaļa]]>
-            </line>
-            <line>
-              <![CDATA[7. Lasīt vairāk]]>
-            </line>
-            <line>
-              <![CDATA[8. Iestādes vadītājs ir: Aigars Undzēns
-Direktors]]>
-            </line>
-            <line>
-              <![CDATA[9. Izvēlēta Par mums sadaļa]]>
-            </line>
-            <line>
-              <![CDATA[10. Lasīt vairāk]]>
-            </line>
-            <line>
-              <![CDATA[10. Pēdējais labojums par mums: Publicēts: 16.01.2020.]]>
-            </line>
-            <line>
-              <![CDATA[11. Izvēlēta EN valoda]]>
-            </line>
-            <line>
-              <![CDATA[12. Izvēlēta LV valoda]]>
-            </line>
-            <line>
-              <![CDATA[14. Kontrasts balts]]>
-            </line>
-            <line>
-              <![CDATA[15. Meklētājs pieejams]]>
-            </line>
-            <line>
-              <![CDATA[16. Meklētājvārds ievadīts]]>
-            </line>
-            <line>
-              <![CDATA[17. Poga meklēt nospiesta]]>
-            </line>
-            <line>
-              <![CDATA[18. Pirmais meklēšanas rezutlāts ir --- : Turpinās projektu iesniegumu izvērtēšana projektu konkursā aktivitātē “Sadarbības projekti vides politikas veidošanai un īstenošanai”]]>
-            </line>
-            <line>
-              <![CDATA[18. Pieteikties jaunumiem var]]>
-            </line>
-            <line>
-              <![CDATA[ Lapa ir aizvērta]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- TVP_pamatlietasChrome -->
-        <test-method signature="TVP_pamatlietasEdge()[pri:0, instance:RUN_ALL.TVP_PamatlietasPOM@1a18644]" started-at="2023-10-15T16:21:24 EEST" name="TVP_pamatlietasEdge" finished-at="2023-10-15T16:21:51 EEST" duration-ms="27541" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Edge ir palaists]]>
-            </line>
-            <line>
-              <![CDATA[1. VRAA lapa ir atvērta]]>
-            </line>
-            <line>
-              <![CDATA[2. VRAA lapa ir apstiprinātas sīkdatnes]]>
-            </line>
-            <line>
-              <![CDATA[3. Izvēlētas aktualitātes]]>
-            </line>
-            <line>
-              <![CDATA[4. Lasīt vairāk]]>
-            </line>
-            <line>
-              <![CDATA[5. Iegūts aktualitātes datums: 27.09.2023.]]>
-            </line>
-            <line>
-              <![CDATA[6. Izvēlēta kontaktu sadaļa]]>
-            </line>
-            <line>
-              <![CDATA[7. Lasīt vairāk]]>
-            </line>
-            <line>
-              <![CDATA[8. Iestādes vadītājs ir: Aigars Undzēns
-Direktors]]>
-            </line>
-            <line>
-              <![CDATA[9. Izvēlēta Par mums sadaļa]]>
-            </line>
-            <line>
-              <![CDATA[10. Lasīt vairāk]]>
-            </line>
-            <line>
-              <![CDATA[10. Pēdējais labojums par mums: Publicēts: 16.01.2020.]]>
-            </line>
-            <line>
-              <![CDATA[11. Izvēlēta EN valoda]]>
-            </line>
-            <line>
-              <![CDATA[12. Izvēlēta LV valoda]]>
-            </line>
-            <line>
-              <![CDATA[14. Kontrasts balts]]>
-            </line>
-            <line>
-              <![CDATA[15. Meklētājs pieejams]]>
-            </line>
-            <line>
-              <![CDATA[16. Meklētājvārds ievadīts]]>
-            </line>
-            <line>
-              <![CDATA[17. Poga meklēt nospiesta]]>
-            </line>
-            <line>
-              <![CDATA[18. Pirmais meklēšanas rezutlāts ir --- : Turpinās projektu iesniegumu izvērtēšana projektu konkursā aktivitātē “Sadarbības projekti vides politikas veidošanai un īstenošanai”]]>
-            </line>
-            <line>
-              <![CDATA[18. Pieteikties jaunumiem var]]>
-            </line>
-            <line>
-              <![CDATA[ Lapa ir aizvērta]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- TVP_pamatlietasEdge -->
-        <test-method signature="TVP_pamatlietasFire()[pri:0, instance:RUN_ALL.TVP_PamatlietasPOM@1a18644]" started-at="2023-10-15T16:21:51 EEST" name="TVP_pamatlietasFire" finished-at="2023-10-15T16:22:22 EEST" duration-ms="30904" status="PASS">
+    <test started-at="2023-10-23T10:47:32 EEST" name="SC_Test21" finished-at="2023-10-23T10:49:49 EEST" duration-ms="137146">
+      <class name="RUN_ALL.GEO_POM_TMONS">
+        <test-method signature="GEO_FireTmons()[pri:1, instance:RUN_ALL.GEO_POM_TMONS@21e360a]" started-at="2023-10-23T10:47:32 EEST" name="GEO_FireTmons" finished-at="2023-10-23T10:48:36 EEST" duration-ms="63518" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Firefox ir palaists]]>
             </line>
             <line>
-              <![CDATA[1. VRAA lapa ir atvērta]]>
+              <![CDATA[1.  GEO lapa ir atvērta]]>
             </line>
             <line>
-              <![CDATA[2. VRAA lapa ir apstiprinātas sīkdatnes]]>
+              <![CDATA[2. Apstiprina sīkdantes]]>
             </line>
             <line>
-              <![CDATA[3. Izvēlētas aktualitātes]]>
+              <![CDATA[3.  Nospiež ģeoprodukti]]>
             </line>
             <line>
-              <![CDATA[4. Lasīt vairāk]]>
+              <![CDATA[4.  Ievada augsnes]]>
             </line>
             <line>
-              <![CDATA[5. Iegūts aktualitātes datums: 27.09.2023.]]>
+              <![CDATA[5.  Spiež meklēt]]>
             </line>
             <line>
-              <![CDATA[6. Izvēlēta kontaktu sadaļa]]>
+              <![CDATA[ Pirmais rezultāts ir: Augsnes dziļrakumi (lejupielādes datne)]]>
             </line>
             <line>
-              <![CDATA[7. Lasīt vairāk]]>
+              <![CDATA[6.  Spiež pirmo rezultātu]]>
             </line>
             <line>
-              <![CDATA[8. Iestādes vadītājs ir: Aigars Undzēns
-Direktors]]>
+              <![CDATA[7.  Atver galeriju]]>
             </line>
             <line>
-              <![CDATA[9. Izvēlēta Par mums sadaļa]]>
+              <![CDATA[8. Pauze 5 sek]]>
             </line>
             <line>
-              <![CDATA[10. Lasīt vairāk]]>
+              <![CDATA[9. Atver karšu iframe]]>
             </line>
             <line>
-              <![CDATA[10. Pēdējais labojums par mums: Publicēts: 16.01.2020.]]>
+              <![CDATA[10. Spiež pirmo karti]]>
             </line>
             <line>
-              <![CDATA[11. Izvēlēta EN valoda]]>
+              <![CDATA[11. Pauze 3 sek]]>
             </line>
             <line>
-              <![CDATA[12. Izvēlēta LV valoda]]>
+              <![CDATA[12. Nospiež uz meklētāja]]>
             </line>
             <line>
-              <![CDATA[14. Kontrasts balts]]>
+              <![CDATA[13. Ievada tekstu]]>
             </line>
             <line>
-              <![CDATA[15. Meklētājs pieejams]]>
+              <![CDATA[14. Atver Tapis]]>
             </line>
             <line>
-              <![CDATA[16. Meklētājvārds ievadīts]]>
+              <![CDATA[15. Aizvērt popup]]>
             </line>
             <line>
-              <![CDATA[17. Poga meklēt nospiesta]]>
+              <![CDATA[16. Ieraksta meklētājā tekstu]]>
             </line>
             <line>
-              <![CDATA[18. Pirmais meklēšanas rezutlāts ir --- : Turpinās projektu iesniegumu izvērtēšana projektu konkursā aktivitātē “Sadarbības projekti vides politikas veidošanai un īstenošanai”]]>
+              <![CDATA[17. Atver failu]]>
             </line>
             <line>
-              <![CDATA[18. Pieteikties jaunumiem var]]>
+              <![CDATA[18. Pauze 5 sek]]>
+            </line>
+            <line>
+              <![CDATA[19. Atver failu 2 ]]>
+            </line>
+            <line>
+              <![CDATA[20. Pauze 2 sek]]>
             </line>
             <line>
               <![CDATA[ Lapa ir aizvērta]]>
             </line>
           </reporter-output>
-        </test-method> <!-- TVP_pamatlietasFire -->
-      </class> <!-- RUN_ALL.TVP_PamatlietasPOM -->
+        </test-method> <!-- GEO_FireTmons -->
+        <test-method signature="GEO_ChromeTmons()[pri:2, instance:RUN_ALL.GEO_POM_TMONS@21e360a]" started-at="2023-10-23T10:48:36 EEST" name="GEO_ChromeTmons" finished-at="2023-10-23T10:49:10 EEST" duration-ms="34697" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome ir palaists]]>
+            </line>
+            <line>
+              <![CDATA[1.  GEO lapa ir atvērta]]>
+            </line>
+            <line>
+              <![CDATA[2. Apstiprina sīkdantes]]>
+            </line>
+            <line>
+              <![CDATA[3.  Nospiež ģeoprodukti]]>
+            </line>
+            <line>
+              <![CDATA[4.  Ievada augsnes]]>
+            </line>
+            <line>
+              <![CDATA[5.  Spiež meklēt]]>
+            </line>
+            <line>
+              <![CDATA[ Pirmais rezultāts ir: Augsnes dziļrakumi (lejupielādes datne)]]>
+            </line>
+            <line>
+              <![CDATA[6.  Spiež pirmo rezultātu]]>
+            </line>
+            <line>
+              <![CDATA[7.  Atver galeriju]]>
+            </line>
+            <line>
+              <![CDATA[8. Pauze 5 sek]]>
+            </line>
+            <line>
+              <![CDATA[9. Atver karšu iframe]]>
+            </line>
+            <line>
+              <![CDATA[10. Spiež pirmo karti]]>
+            </line>
+            <line>
+              <![CDATA[11. Pauze 3 sek]]>
+            </line>
+            <line>
+              <![CDATA[12. Nospiež uz meklētāja]]>
+            </line>
+            <line>
+              <![CDATA[13. Ievada tekstu]]>
+            </line>
+            <line>
+              <![CDATA[14. Atver Tapis]]>
+            </line>
+            <line>
+              <![CDATA[15. Aizvērt popup]]>
+            </line>
+            <line>
+              <![CDATA[16. Ieraksta meklētājā tekstu]]>
+            </line>
+            <line>
+              <![CDATA[17. Atver failu]]>
+            </line>
+            <line>
+              <![CDATA[18. Pauze 5 sek]]>
+            </line>
+            <line>
+              <![CDATA[19. Atver failu 2 ]]>
+            </line>
+            <line>
+              <![CDATA[20. Pauze 2 sek]]>
+            </line>
+            <line>
+              <![CDATA[ Lapa ir aizvērta]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GEO_ChromeTmons -->
+        <test-method signature="GEO_EdgeTmons()[pri:3, instance:RUN_ALL.GEO_POM_TMONS@21e360a]" started-at="2023-10-23T10:49:10 EEST" name="GEO_EdgeTmons" finished-at="2023-10-23T10:49:49 EEST" duration-ms="38577" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Edge ir palaists]]>
+            </line>
+            <line>
+              <![CDATA[1.  GEO lapa ir atvērta]]>
+            </line>
+            <line>
+              <![CDATA[2. Apstiprina sīkdantes]]>
+            </line>
+            <line>
+              <![CDATA[3.  Nospiež ģeoprodukti]]>
+            </line>
+            <line>
+              <![CDATA[4.  Ievada augsnes]]>
+            </line>
+            <line>
+              <![CDATA[5.  Spiež meklēt]]>
+            </line>
+            <line>
+              <![CDATA[ Pirmais rezultāts ir: Augsnes dziļrakumi (lejupielādes datne)]]>
+            </line>
+            <line>
+              <![CDATA[6.  Spiež pirmo rezultātu]]>
+            </line>
+            <line>
+              <![CDATA[7.  Atver galeriju]]>
+            </line>
+            <line>
+              <![CDATA[8. Pauze 5 sek]]>
+            </line>
+            <line>
+              <![CDATA[9. Atver karšu iframe]]>
+            </line>
+            <line>
+              <![CDATA[10. Spiež pirmo karti]]>
+            </line>
+            <line>
+              <![CDATA[11. Pauze 3 sek]]>
+            </line>
+            <line>
+              <![CDATA[12. Nospiež uz meklētāja]]>
+            </line>
+            <line>
+              <![CDATA[13. Ievada tekstu]]>
+            </line>
+            <line>
+              <![CDATA[14. Atver Tapis]]>
+            </line>
+            <line>
+              <![CDATA[15. Aizvērt popup]]>
+            </line>
+            <line>
+              <![CDATA[16. Ieraksta meklētājā tekstu]]>
+            </line>
+            <line>
+              <![CDATA[17. Atver failu]]>
+            </line>
+            <line>
+              <![CDATA[18. Pauze 5 sek]]>
+            </line>
+            <line>
+              <![CDATA[19. Atver failu 2 ]]>
+            </line>
+            <line>
+              <![CDATA[20. Pauze 2 sek]]>
+            </line>
+            <line>
+              <![CDATA[ Lapa ir aizvērta]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GEO_EdgeTmons -->
+      </class> <!-- RUN_ALL.GEO_POM_TMONS -->
     </test> <!-- SC_Test21 -->
   </suite> <!-- Default Suite -->
 </testng-results>

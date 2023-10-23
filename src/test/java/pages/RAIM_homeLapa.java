@@ -16,7 +16,7 @@ public class RAIM_homeLapa extends DriverCommon {
         driver.get("https://raim.gov.lv");
         driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
-        Reporter.log("1. Chrome RAIM lapa ir atvērta");
+        Reporter.log("1. RAIM lapa ir atvērta");
     }
     public void apstiprinaSīkdatnes(){
         driver.findElement(By.xpath("//*[text()='Apstiprināt visas']")).click();
