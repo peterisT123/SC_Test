@@ -17,7 +17,7 @@ public class TVP_PamatlietasTest extends DriverCommon {
 
     private final By Aktualitātes = By.xpath("(//*[@href='/lv/jaunumi'])[1]");
 
-    private final String meklētājvārds = "Projekti";
+    private final String meklētājvārds = "Budžets";
 
     public void atverLADPlapu() {
         driver.get("https://www.vraa.gov.lv/lv");

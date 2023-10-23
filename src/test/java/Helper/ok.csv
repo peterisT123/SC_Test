@@ -1,8 +1,12 @@
-﻿id,price,postcode
-1,50.00,LV1010
-2,150.00,LV2010
-3,150.00,LV2010
-4,50.00,LV1010
-5,150.00,LV2010
-6,150.00,LV2010
-7,150.00,LV2010
+﻿ driver   = new FirefoxDriver();
+        driver.manage().window().maximize();
+        driver.manage().deleteAllCookies();
+        driver.get("https://geolatvija.lv/geo/map/gallery");
+        driver.findElement(By.xpath("//*[@class='Button Confirm']")).click();
+        driver.switchTo().frame("mapsIframeId");
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+       driver.findElement(By.xpath("(//*[@class='imageThumbnailClass'])[1]")).click();
+        driver.switchTo().defaultContent();
+        driver.switchTo().frame("mapsIframeId");
+        driver.findElement(By.xpath("//*[@id='esri_dijit_Search_0_input']")).sendKeys("Test");
+        driver.close();

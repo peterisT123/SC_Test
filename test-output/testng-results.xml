@@ -194,12 +194,12 @@ Direktors]]>
       <![CDATA[ Lapa ir aizvērta]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-10-15T16:20:53 EEST" name="Default Suite" finished-at="2023-10-15T16:22:22 EEST" duration-ms="89379">
+  <suite started-at="2023-10-16T07:11:25 EEST" name="Default Suite" finished-at="2023-10-16T07:14:47 EEST" duration-ms="202154">
     <groups>
     </groups>
-    <test started-at="2023-10-15T16:20:53 EEST" name="SC_Test21" finished-at="2023-10-15T16:22:22 EEST" duration-ms="89379">
+    <test started-at="2023-10-16T07:11:25 EEST" name="SC_Test" finished-at="2023-10-16T07:14:47 EEST" duration-ms="202154">
       <class name="RUN_ALL.TVP_PamatlietasPOM">
-        <test-method signature="TVP_pamatlietasChrome()[pri:0, instance:RUN_ALL.TVP_PamatlietasPOM@1a18644]" started-at="2023-10-15T16:20:53 EEST" name="TVP_pamatlietasChrome" finished-at="2023-10-15T16:21:24 EEST" duration-ms="30555" status="PASS">
+        <test-method signature="TVP_pamatlietasChrome()[pri:0, instance:RUN_ALL.TVP_PamatlietasPOM@77eca502]" started-at="2023-10-16T07:11:25 EEST" name="TVP_pamatlietasChrome" finished-at="2023-10-16T07:12:23 EEST" duration-ms="57823" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Chrome ir palaists]]>
@@ -267,7 +267,7 @@ Direktors]]>
             </line>
           </reporter-output>
         </test-method> <!-- TVP_pamatlietasChrome -->
-        <test-method signature="TVP_pamatlietasEdge()[pri:0, instance:RUN_ALL.TVP_PamatlietasPOM@1a18644]" started-at="2023-10-15T16:21:24 EEST" name="TVP_pamatlietasEdge" finished-at="2023-10-15T16:21:51 EEST" duration-ms="27541" status="PASS">
+        <test-method signature="TVP_pamatlietasEdge()[pri:0, instance:RUN_ALL.TVP_PamatlietasPOM@77eca502]" started-at="2023-10-16T07:12:24 EEST" name="TVP_pamatlietasEdge" finished-at="2023-10-16T07:13:18 EEST" duration-ms="53645" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Edge ir palaists]]>
@@ -335,7 +335,7 @@ Direktors]]>
             </line>
           </reporter-output>
         </test-method> <!-- TVP_pamatlietasEdge -->
-        <test-method signature="TVP_pamatlietasFire()[pri:0, instance:RUN_ALL.TVP_PamatlietasPOM@1a18644]" started-at="2023-10-15T16:21:51 EEST" name="TVP_pamatlietasFire" finished-at="2023-10-15T16:22:22 EEST" duration-ms="30904" status="PASS">
+        <test-method signature="TVP_pamatlietasFire()[pri:0, instance:RUN_ALL.TVP_PamatlietasPOM@77eca502]" started-at="2023-10-16T07:13:18 EEST" name="TVP_pamatlietasFire" finished-at="2023-10-16T07:14:47 EEST" duration-ms="89863" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Firefox ir palaists]]>
@@ -404,6 +404,6 @@ Direktors]]>
           </reporter-output>
         </test-method> <!-- TVP_pamatlietasFire -->
       </class> <!-- RUN_ALL.TVP_PamatlietasPOM -->
-    </test> <!-- SC_Test21 -->
+    </test> <!-- SC_Test -->
   </suite> <!-- Default Suite -->
 </testng-results>

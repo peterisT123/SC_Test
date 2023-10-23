@@ -1,13 +1,18 @@
 package LADP;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 public class LADP_TEST {
@@ -63,8 +68,24 @@ public static WebDriver driver;
         System.out.println(" atverās lapa LADP_chrome");
 
     }
-    @Test
-    void testSteps(){
+    @Test(priority = 2)
+
+    public static void geo_firefox() {
+        driver   = new FirefoxDriver();
+        driver.manage().window().maximize();
+        driver.manage().deleteAllCookies();
+        driver.get("https://geolatvija.lv/geo/map/gallery");
+        driver.findElement(By.xpath("//*[@class='Button Confirm']")).click();
+        driver.switchTo().frame("mapsIframeId");
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+       driver.findElement(By.xpath("(//*[@class='imageThumbnailClass'])[1]")).click();
+        driver.switchTo().defaultContent();
+        driver.switchTo().frame("mapsIframeId");
+        driver.findElement(By.xpath("//*[@id='esri_dijit_Search_0_input']")).sendKeys("Test");
+        driver.close();
+
+
+
 
 
     }
