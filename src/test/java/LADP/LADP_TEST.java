@@ -21,9 +21,11 @@ public static WebDriver driver;
 
 
 
+
     @Test(priority = 2)
 
     public static void LADP_firefox() {
+       
         driver   = new FirefoxDriver();
         driver.manage().window().maximize();
         driver.manage().deleteAllCookies();

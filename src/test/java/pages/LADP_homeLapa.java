@@ -2,7 +2,7 @@ package pages;
 
 import Helper.DriverCommon;
 import com.sun.source.util.SourcePositions;
-import gherkin.lexer.Ja;
+
 import io.cucumber.java.en_old.Ac;
 import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
 import org.junit.Assert;
@@ -35,7 +35,7 @@ private final By dropdownPrieksatijums = By.xpath("(//*[contains(@href,'a0f9-4c3
         driver.get("https://data.gov.lv/lv");
         driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
-        Reporter.log("1. Chrome LADP lapa ir atvērta");
+        Reporter.log("1. LADP lapa ir atvērta");
     }
     public void ievadaVakances() {
         driver.findElement(By.xpath("//*[contains(@placeholder,'Ievadiet terminus, kurus meklēt.')]")).sendKeys("Vakances");

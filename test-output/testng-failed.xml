@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="SC_Test21(failed)">
     <classes>
-      <class name="RUN_ALL.LADP_POM_TMONS">
+      <class name="RUN_ALL.GEO_POM_TMONS">
         <methods>
-          <include name="LADP_FireTmons"/>
+          <include name="GEO_FireTmons"/>
         </methods>
-      </class> <!-- RUN_ALL.LADP_POM_TMONS -->
+      </class> <!-- RUN_ALL.GEO_POM_TMONS -->
     </classes>
   </test> <!-- SC_Test21(failed) -->
 </suite> <!-- Failed suite [Default Suite] -->

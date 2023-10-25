@@ -85,13 +85,13 @@ public class TVP_lapa extends DriverCommon {
         WebElement ele4 = wait.until(ExpectedConditions.elementToBeClickable(ievadaLietotajvardu));
         JavascriptExecutor executor = (JavascriptExecutor)driver;
         executor.executeScript("arguments[0].click();", ele4);
-        driver.findElement(By.xpath("//input[@id='content_UserName']")).sendKeys("VRAA_PTROKSA_Test");
+        driver.findElement(By.xpath("//input[@id='content_UserName']")).sendKeys("");
     }
     public void ievadaParoli(){
-        driver.findElement(By.xpath("//*[@id=\"content_Password\"]")).sendKeys("Stirna123!@#");
+        driver.findElement(By.xpath("//*[@id=\"content_Password\"]")).sendKeys("");
     }
     public void ievadaParoliFire(){
-        driver.findElement(By.xpath("//input[@id='content_Password']")).sendKeys("Stirna123!@#");
+        driver.findElement(By.xpath("//input[@id='content_Password']")).sendKeys("");
     }
     public void apstiprina(){
         driver.findElement(By.xpath("//*[@id=\"content_LoginButton\"]")).click();
