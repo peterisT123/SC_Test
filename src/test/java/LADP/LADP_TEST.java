@@ -74,15 +74,36 @@ public static WebDriver driver;
         driver   = new FirefoxDriver();
         driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
-        driver.get("https://geolatvija.lv/geo/map/gallery");
-        driver.findElement(By.xpath("//*[@class='Button Confirm']")).click();
-        driver.switchTo().frame("mapsIframeId");
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-       driver.findElement(By.xpath("(//*[@class='imageThumbnailClass'])[1]")).click();
-        driver.switchTo().defaultContent();
-        driver.switchTo().frame("mapsIframeId");
-        driver.findElement(By.xpath("//*[@id='esri_dijit_Search_0_input']")).sendKeys("Test");
-        driver.close();
+        driver.get("https://www.vraa.gov.lv/lv");
+        driver.findElement(By.xpath("//*[contains(text(),'Apstiprināt visas')]")).click();
+        driver.navigate().refresh();
+
+        WebElement irNoderigi =  driver.findElement(By.xpath("(//*[text()='Noderīgi'])[1]"));
+        Boolean vaiIrNoderigi = irNoderigi.isDisplayed();
+        if(vaiIrNoderigi){
+            System.out.println("Ir tekts Noderīgi " );
+            driver.close();
+        }else{
+            System.out.println("Nav  tekts Noderīgi" );
+            driver.close();
+        }
+
+
+
+
+//        WebElement vaiBalts = driver.findElement(By.xpath("//body[contains(@class,'no-focus contrast-1')]"));
+//        Boolean IrBalts = vaiBalts.isDisplayed();
+//        if(IrBalts){
+//            System.out.println("Ir balts" );
+//            driver.close();
+//        }else if(IrBalts){
+//            System.out.println("Nav balts" );
+//            driver.close();
+//        }else{
+//            driver.close();
+//        }
+
+
 
 
 
